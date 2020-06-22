@@ -1,0 +1,75 @@
+2020-05-26 16:44:17,109 INFO 44053 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 16:44:17,109 INFO 44053 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 16:44:17,109 INFO 44053 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:37:47,123 INFO 45539 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:37:47,123 INFO 45539 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:37:47,123 INFO 45539 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:37:47,268 INFO 45535 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39132735ms at 2020-05-27 04:30:00.003
+2020-05-26 17:37:47,269 INFO 45535 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22932732ms at 2020-05-27 00:00:00.001
+2020-05-26 17:37:47,269 INFO 45535 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22933731ms at 2020-05-27 00:00:01.000
+2020-05-26 17:46:20,650 INFO 45728 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:46:20,650 INFO 45728 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:46:20,650 INFO 45728 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:46:37,062 INFO 45730 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:46:37,062 INFO 45730 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:46:37,062 INFO 45730 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:47:59,157 INFO 45921 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:47:59,157 INFO 45921 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:47:59,157 INFO 45921 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:48:52,201 INFO 45940 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:48:52,201 INFO 45940 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:48:52,201 INFO 45940 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:49:54,054 INFO 46076 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:49:54,054 INFO 46076 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:49:54,054 INFO 46076 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:49:54,159 INFO 46075 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38405843ms at 2020-05-27 04:30:00.002
+2020-05-26 17:49:54,160 INFO 46075 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22205840ms at 2020-05-27 00:00:00.000
+2020-05-26 17:49:54,160 INFO 46075 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22206840ms at 2020-05-27 00:00:01.000
+2020-05-26 17:54:07,983 INFO 46147 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:54:07,984 INFO 46147 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:54:07,984 INFO 46147 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:55:49,673 INFO 46237 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:55:49,673 INFO 46237 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:55:49,673 INFO 46237 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:56:06,133 INFO 46248 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38033869ms at 2020-05-27 04:30:00.002
+2020-05-26 17:56:06,134 INFO 46248 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21833867ms at 2020-05-27 00:00:00.001
+2020-05-26 17:56:06,134 INFO 46248 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21834866ms at 2020-05-27 00:00:01.000
+2020-05-26 17:56:06,034 INFO 46249 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:56:06,034 INFO 46249 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:56:06,034 INFO 46249 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:57:08,241 INFO 46277 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:57:08,241 INFO 46277 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:57:08,241 INFO 46277 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:57:26,534 INFO 46284 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37953469ms at 2020-05-27 04:30:00.003
+2020-05-26 17:57:26,535 INFO 46284 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21753466ms at 2020-05-27 00:00:00.001
+2020-05-26 17:57:26,535 INFO 46284 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21754465ms at 2020-05-27 00:00:01.000
+2020-05-26 17:57:26,435 INFO 46288 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:57:26,436 INFO 46288 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:57:26,436 INFO 46288 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 17:59:13,595 INFO 46320 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 17:59:13,595 INFO 46320 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 17:59:13,595 INFO 46320 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 18:01:49,373 INFO 46366 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 18:01:49,373 INFO 46366 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 18:01:49,373 INFO 46366 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 18:02:47,341 INFO 46408 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37632662ms at 2020-05-27 04:30:00.003
+2020-05-26 18:02:47,342 INFO 46408 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21432659ms at 2020-05-27 00:00:00.000
+2020-05-26 18:02:47,342 INFO 46408 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21433658ms at 2020-05-27 00:00:01.000
+2020-05-26 18:02:47,235 INFO 46409 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 18:02:47,235 INFO 46409 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 18:02:47,235 INFO 46409 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 18:03:44,503 INFO 46491 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 18:03:44,503 INFO 46491 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 18:03:44,503 INFO 46491 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 18:03:52,926 INFO 46492 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 18:03:52,926 INFO 46492 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 18:03:52,926 INFO 46492 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-26 18:03:57,028 INFO 46493 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-26 18:03:57,028 INFO 46493 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-26 18:03:57,028 INFO 46493 [egg-schedule]: register schedule /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-27 16:09:56,256 INFO 46493 [Job#15905669961981365931381400461] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-05-27 16:09:56,285 INFO 46493 [Job#15905669961981365931381400461] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 18ms
+2020-05-27 16:09:56,216 INFO 46408 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28203791ms at 2020-05-28 00:00:00.007
+2020-05-27 16:09:57,186 INFO 46408 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28203818ms at 2020-05-28 00:00:01.004
+2020-05-27 16:09:57,183 INFO 46493 [Job#15905669971811365941192913121] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-05-27 16:09:57,191 INFO 46493 [Job#15905669971811365941192913121] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 8ms

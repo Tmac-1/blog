@@ -1,0 +1,12 @@
+2020-05-27 16:09:57,195 INFO 46493 [egg-logrotator] app logger reload: got log-reload message
+2020-05-28 07:46:23,351 WARN 46493 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-05-28 07:46:23,362 WARN 46493 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-28 10:08:52,059 WARN 46493 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-28 11:00:19,883 INFO 46493 [-/127.0.0.1/-/24ms SCHEDULE /__schedule?path=/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/9s/8p3rj09x4t7f0d9xyjjlvk280000gn/T/egg-multipart-tmp/service"
+2020-05-28 11:00:19,892 INFO 46493 [-/127.0.0.1/-/36ms SCHEDULE /__schedule?path=/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-05-28 12:43:45,698 WARN 46493 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-28 13:04:01,912 WARN 46493 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-28 13:43:52,826 WARN 46493 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-28 15:56:23,562 INFO 46493 [egg-logrotator] clean all log before 31 days
+2020-05-28 15:56:24,489 INFO 46493 [egg-logrotator] broadcast log-reload
+2020-05-28 15:56:24,489 INFO 46493 [egg-logrotator] rotate files success by DayRotator, files ["/Users/tmac/Desktop/study/project/blog/service/logs/service/common-error.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/common-error.log.2020-05-27","/Users/tmac/Desktop/study/project/blog/service/logs/service/service-web.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/service-web.log.2020-05-27","/Users/tmac/Desktop/study/project/blog/service/logs/service/egg-web.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/egg-web.log.2020-05-27","/Users/tmac/Desktop/study/project/blog/service/logs/service/egg-schedule.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/egg-schedule.log.2020-05-27","/Users/tmac/Desktop/study/project/blog/service/logs/service/egg-agent.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/egg-agent.log.2020-05-27"]

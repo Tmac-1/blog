@@ -1,0 +1,50 @@
+2020-05-28 07:46:23,341 ERROR 46408 nodejs.ClusterClientNoResponseError: client no response in 43205718ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 46408
+hostname: DDZR05WL414
+
+2020-05-28 10:08:52,097 ERROR 46408 nodejs.ClusterClientNoResponseError: client no response in 8448651ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 46408
+hostname: DDZR05WL414
+
+2020-05-28 12:43:45,698 ERROR 46408 nodejs.ClusterClientNoResponseError: client no response in 2292411ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 46408
+hostname: DDZR05WL414
+
+2020-05-28 13:04:01,912 ERROR 46408 nodejs.ClusterClientNoResponseError: client no response in 1176187ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 46408
+hostname: DDZR05WL414
+
+2020-05-28 13:43:52,826 ERROR 46408 nodejs.ClusterClientNoResponseError: client no response in 2350893ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 46408
+hostname: DDZR05WL414
+

@@ -1,0 +1,190 @@
+2020-06-17 16:12:20,054 INFO 36029 [egg-logrotator] agent logger reload: got log-reload message
+2020-06-17 16:42:05,175 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js rename
+2020-06-17 16:42:04,957 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":15045672,"size":0,"blocks":0,"atimeMs":1592383324936.8933,"mtimeMs":1592383324842.4897,"ctimeMs":1592383324842.4897,"birthtimeMs":1592383324842.4897,"atime":"2020-06-17T08:42:04.937Z","mtime":"2020-06-17T08:42:04.842Z","ctime":"2020-06-17T08:42:04.842Z","birthtime":"2020-06-17T08:42:04.842Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 16:42:15,362 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":15045672,"size":233,"blocks":8,"atimeMs":1592383335350.752,"mtimeMs":1592383335352.0254,"ctimeMs":1592383335352.0254,"birthtimeMs":1592383324842.4897,"atime":"2020-06-17T08:42:15.351Z","mtime":"2020-06-17T08:42:15.352Z","ctime":"2020-06-17T08:42:15.352Z","birthtime":"2020-06-17T08:42:04.842Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 16:42:15,568 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js rename
+2020-06-17 16:42:59,212 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/admin.js change
+2020-06-17 16:42:59,008 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264732,"size":132,"blocks":8,"atimeMs":1592383378945.236,"mtimeMs":1592383378946.3203,"ctimeMs":1592383378946.3203,"birthtimeMs":1590050235709.815,"atime":"2020-06-17T08:42:58.945Z","mtime":"2020-06-17T08:42:58.946Z","ctime":"2020-06-17T08:42:58.946Z","birthtime":"2020-05-21T08:37:15.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 16:43:41,596 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216168,"size":172,"blocks":8,"atimeMs":1592383421529.4521,"mtimeMs":1592383421532.3474,"ctimeMs":1592383421532.3474,"birthtimeMs":1590046033735.0457,"atime":"2020-06-17T08:43:41.529Z","mtime":"2020-06-17T08:43:41.532Z","ctime":"2020-06-17T08:43:41.532Z","birthtime":"2020-05-21T07:27:13.735Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 16:43:41,801 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router.js change
+2020-06-17 16:44:21,259 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/admin.js change
+2020-06-17 16:44:21,055 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264732,"size":132,"blocks":8,"atimeMs":1592383460942.5122,"mtimeMs":1592383460943.3882,"ctimeMs":1592383460943.3882,"birthtimeMs":1590050235709.815,"atime":"2020-06-17T08:44:20.943Z","mtime":"2020-06-17T08:44:20.943Z","ctime":"2020-06-17T08:44:20.943Z","birthtime":"2020-05-21T08:37:15.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 16:45:03,500 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/admin.js change
+2020-06-17 16:45:03,294 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264732,"size":121,"blocks":8,"atimeMs":1592383503230.1404,"mtimeMs":1592383503232.7664,"ctimeMs":1592383503232.7664,"birthtimeMs":1590050235709.815,"atime":"2020-06-17T08:45:03.230Z","mtime":"2020-06-17T08:45:03.233Z","ctime":"2020-06-17T08:45:03.233Z","birthtime":"2020-05-21T08:37:15.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 16:46:19,832 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js change
+2020-06-17 16:46:19,630 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":15045672,"size":852,"blocks":8,"atimeMs":1592383579567.7883,"mtimeMs":1592383579568.523,"ctimeMs":1592383579568.523,"birthtimeMs":1592383324842.4897,"atime":"2020-06-17T08:46:19.568Z","mtime":"2020-06-17T08:46:19.569Z","ctime":"2020-06-17T08:46:19.569Z","birthtime":"2020-06-17T08:42:04.842Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 16:46:25,770 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js change
+2020-06-17 16:46:25,564 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":15045672,"size":886,"blocks":8,"atimeMs":1592383585552.1265,"mtimeMs":1592383585553.4314,"ctimeMs":1592383585553.4314,"birthtimeMs":1592383324842.4897,"atime":"2020-06-17T08:46:25.552Z","mtime":"2020-06-17T08:46:25.553Z","ctime":"2020-06-17T08:46:25.553Z","birthtime":"2020-06-17T08:42:04.842Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 16:46:51,251 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js change
+2020-06-17 16:46:51,039 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":15045672,"size":885,"blocks":8,"atimeMs":1592383610975.684,"mtimeMs":1592383610976.9407,"ctimeMs":1592383610976.9407,"birthtimeMs":1592383324842.4897,"atime":"2020-06-17T08:46:50.976Z","mtime":"2020-06-17T08:46:50.977Z","ctime":"2020-06-17T08:46:50.977Z","birthtime":"2020-06-17T08:42:04.842Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 17:11:09,167 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/admin.js change
+2020-06-17 17:11:08,963 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264732,"size":192,"blocks":8,"atimeMs":1592385068899.7148,"mtimeMs":1592385068901.2378,"ctimeMs":1592385068901.2378,"birthtimeMs":1590050235709.815,"atime":"2020-06-17T09:11:08.900Z","mtime":"2020-06-17T09:11:08.901Z","ctime":"2020-06-17T09:11:08.901Z","birthtime":"2020-05-21T08:37:15.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 17:15:02,774 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/admin.js change
+2020-06-17 17:15:02,562 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264732,"size":191,"blocks":8,"atimeMs":1592385302493.9055,"mtimeMs":1592385302501.7354,"ctimeMs":1592385302501.7354,"birthtimeMs":1590050235709.815,"atime":"2020-06-17T09:15:02.494Z","mtime":"2020-06-17T09:15:02.502Z","ctime":"2020-06-17T09:15:02.502Z","birthtime":"2020-05-21T08:37:15.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 17:20:21,963 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/config.default.js change
+2020-06-17 17:20:21,759 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216170,"size":1192,"blocks":8,"atimeMs":1592385621695.01,"mtimeMs":1592385621697.4167,"ctimeMs":1592385621697.4167,"birthtimeMs":1590046033735.3484,"atime":"2020-06-17T09:20:21.695Z","mtime":"2020-06-17T09:20:21.697Z","ctime":"2020-06-17T09:20:21.697Z","birthtime":"2020-05-21T07:27:13.735Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 17:21:25,404 INFO 77608 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-17 17:21:25,414 INFO 77608 [egg:core] dump config after load, 4ms
+2020-06-17 17:21:25,453 INFO 77608 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-06-17 17:21:25,453 INFO 77608 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-06-17 17:21:25,454 INFO 77608 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-06-17 17:21:25,454 INFO 77608 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-06-17 17:21:25,454 INFO 77608 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-06-17 17:21:25,454 INFO 77608 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-06-17 17:21:25,454 INFO 77608 [egg-watcher:agent] watcher start success
+2020-06-17 17:21:25,476 INFO 77608 [egg:core] dump config after ready, 3ms
+2020-06-17 17:23:09,522 WARN 77608 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/config.default.js change
+2020-06-17 17:23:09,318 INFO 77608 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216170,"size":1212,"blocks":8,"atimeMs":1592385789254.9678,"mtimeMs":1592385789255.4294,"ctimeMs":1592385789255.4294,"birthtimeMs":1590046033735.3484,"atime":"2020-06-17T09:23:09.255Z","mtime":"2020-06-17T09:23:09.255Z","ctime":"2020-06-17T09:23:09.255Z","birthtime":"2020-05-21T07:27:13.735Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 18:03:47,701 INFO 77608 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/middleware","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":15049133,"size":64,"blocks":0,"atimeMs":1592388227598.9622,"mtimeMs":1592388227588.4617,"ctimeMs":1592388227588.4617,"birthtimeMs":1592388227588.4617,"atime":"2020-06-17T10:03:47.599Z","mtime":"2020-06-17T10:03:47.588Z","ctime":"2020-06-17T10:03:47.588Z","birthtime":"2020-06-17T10:03:47.588Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-06-17 18:04:05,555 WARN 77608 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/middleware/adminauth.js rename
+2020-06-17 18:04:05,352 INFO 77608 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/middleware/adminauth.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":15049137,"size":0,"blocks":0,"atimeMs":1592388245351.8113,"mtimeMs":1592388245239.4797,"ctimeMs":1592388245239.4797,"birthtimeMs":1592388245239.4797,"atime":"2020-06-17T10:04:05.352Z","mtime":"2020-06-17T10:04:05.239Z","ctime":"2020-06-17T10:04:05.239Z","birthtime":"2020-06-17T10:04:05.239Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 18:04:12,835 INFO 77608 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/middleware/adminauth.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":15049137,"size":248,"blocks":8,"atimeMs":1592388252822.4775,"mtimeMs":1592388252823.5332,"ctimeMs":1592388252823.5332,"birthtimeMs":1592388245239.4797,"atime":"2020-06-17T10:04:12.822Z","mtime":"2020-06-17T10:04:12.824Z","ctime":"2020-06-17T10:04:12.824Z","birthtime":"2020-06-17T10:04:05.239Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 18:04:13,040 WARN 77608 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/middleware/adminauth.js rename
+2020-06-17 18:04:57,866 INFO 77608 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264732,"size":238,"blocks":8,"atimeMs":1592388297801.8303,"mtimeMs":1592388297804.2932,"ctimeMs":1592388297804.2932,"birthtimeMs":1590050235709.815,"atime":"2020-06-17T10:04:57.802Z","mtime":"2020-06-17T10:04:57.804Z","ctime":"2020-06-17T10:04:57.804Z","birthtime":"2020-05-21T08:37:15.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 18:04:58,068 WARN 77608 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/admin.js change
+2020-06-17 18:50:35,257 WARN 77608 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js change
+2020-06-17 18:50:35,052 INFO 77608 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":15045672,"size":1026,"blocks":8,"atimeMs":1592391034989.989,"mtimeMs":1592391035000.0205,"ctimeMs":1592391035000.0205,"birthtimeMs":1592383324842.4897,"atime":"2020-06-17T10:50:34.990Z","mtime":"2020-06-17T10:50:35.000Z","ctime":"2020-06-17T10:50:35.000Z","birthtime":"2020-06-17T08:42:04.842Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 18:50:41,001 WARN 77608 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js change
+2020-06-17 18:50:40,795 INFO 77608 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/admin/main.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":15045672,"size":1038,"blocks":8,"atimeMs":1592391040782.9531,"mtimeMs":1592391040784.6936,"ctimeMs":1592391040784.6936,"birthtimeMs":1592383324842.4897,"atime":"2020-06-17T10:50:40.783Z","mtime":"2020-06-17T10:50:40.785Z","ctime":"2020-06-17T10:50:40.785Z","birthtime":"2020-06-17T08:42:04.842Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 18:51:13,226 WARN 77608 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/admin.js change
+2020-06-17 18:51:13,021 INFO 77608 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264732,"size":320,"blocks":8,"atimeMs":1592391072958.2356,"mtimeMs":1592391072959.085,"ctimeMs":1592391072959.085,"birthtimeMs":1590050235709.815,"atime":"2020-06-17T10:51:12.958Z","mtime":"2020-06-17T10:51:12.959Z","ctime":"2020-06-17T10:51:12.959Z","birthtime":"2020-05-21T08:37:15.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-17 19:37:14,351 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 459811ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-17 20:13:24,248 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 2070192ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-17 22:10:14,752 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 6990485ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 00:11:12,846 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 7218110ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 02:12:09,896 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 7217048ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 04:13:47,116 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 7217190ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 06:14:44,229 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 7217114ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 08:15:41,390 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 7217153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 10:00:09,737 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 6188304ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 12:28:44,076 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 1873092ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 13:10:44,798 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 1880567ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 14:02:08,518 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 3043702ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 16:15:56,412 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 1586945ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+
+2020-06-18 16:22:08,237 ERROR 77608 nodejs.ClusterClientNoResponseError: client no response in 271791ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 77608
+hostname: DJZR05WL414
+

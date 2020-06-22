@@ -1,0 +1,9 @@
+2020-05-28 11:00:19,852 INFO 46493 [Job#15906348198201527931273816851] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-05-28 11:00:19,892 INFO 46493 [Job#15906348198201527931273816851] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 37ms
+2020-05-28 11:00:19,844 INFO 46408 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62980174ms at 2020-05-29 04:30:00.018
+2020-05-28 15:56:23,535 INFO 46493 [Job#15906525834821647969562772272] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-05-28 15:56:23,563 INFO 46493 [Job#15906525834821647969562772272] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 20ms
+2020-05-28 15:56:23,544 INFO 46408 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29016505ms at 2020-05-29 00:00:00.046
+2020-05-28 15:56:24,480 INFO 46493 [Job#15906525844751647979480482962] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-05-28 15:56:24,489 INFO 46493 [Job#15906525844751647979480482962] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 9ms
+2020-05-28 15:56:24,484 INFO 46408 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29016523ms at 2020-05-29 00:00:01.007

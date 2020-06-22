@@ -1,0 +1,24 @@
+2020-06-16 16:33:09,062 INFO 45519 [egg-logrotator] app logger reload: got log-reload message
+2020-06-16 18:20:52,211 WARN 45519 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-16 18:20:52,212 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-16 18:25:19,158 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-16 20:11:25,926 WARN 45519 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-16 20:11:25,928 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-16 22:12:24,087 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-17 00:14:02,410 WARN 45519 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-17 00:14:02,410 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-17 02:15:00,536 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-17 04:16:39,574 WARN 45519 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-17 04:16:39,574 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-17 06:18:36,154 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-17 08:20:17,476 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-17 11:52:43,299 INFO 45519 [-/127.0.0.1/-/4ms SCHEDULE /__schedule?path=/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/9s/8p3rj09x4t7f0d9xyjjlvk280000gn/T/egg-multipart-tmp/service"
+2020-06-17 11:52:43,304 INFO 45519 [-/127.0.0.1/-/10ms SCHEDULE /__schedule?path=/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-06-17 12:58:37,600 WARN 45519 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-17 12:58:37,605 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-17 13:06:35,180 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-17 13:44:09,815 WARN 45519 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-17 13:44:09,816 WARN 45519 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-17 16:12:19,078 INFO 45519 [egg-logrotator] clean all log before 31 days
+2020-06-17 16:12:20,051 INFO 45519 [egg-logrotator] broadcast log-reload
+2020-06-17 16:12:20,051 INFO 45519 [egg-logrotator] rotate files success by DayRotator, files ["/Users/tmac/Desktop/study/project/blog/service/logs/service/common-error.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/common-error.log.2020-06-16","/Users/tmac/Desktop/study/project/blog/service/logs/service/service-web.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/service-web.log.2020-06-16","/Users/tmac/Desktop/study/project/blog/service/logs/service/egg-web.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/egg-web.log.2020-06-16","/Users/tmac/Desktop/study/project/blog/service/logs/service/egg-schedule.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/egg-schedule.log.2020-06-16","/Users/tmac/Desktop/study/project/blog/service/logs/service/egg-agent.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/egg-agent.log.2020-06-16"]

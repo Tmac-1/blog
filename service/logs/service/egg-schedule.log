@@ -1,0 +1,6 @@
+2020-06-21 22:21:21,438 INFO 77608 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22118580ms at 2020-06-22 04:30:00.018
+2020-06-21 22:21:21,448 INFO 91475 [Job#15927492814126782548771895582] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-06-21 22:21:21,547 INFO 91475 [Job#15927492814126782548771895582] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 97ms
+2020-06-22 15:50:08,572 INFO 91475 [Job#15928122085517003734915371723] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-06-22 15:50:08,588 INFO 91475 [Job#15928122085517003734915371723] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 14ms
+2020-06-22 15:50:08,578 INFO 77608 [Timer] /Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45591443ms at 2020-06-23 04:30:00.020

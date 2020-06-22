@@ -1,0 +1,289 @@
+2020-05-21 15:39:17,767 INFO 12053 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-21 15:39:17,777 INFO 12053 [egg:core] dump config after load, 4ms
+2020-05-21 15:39:17,815 INFO 12053 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-21 15:39:17,815 INFO 12053 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-21 15:39:17,815 INFO 12053 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-21 15:39:17,815 INFO 12053 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-21 15:39:17,815 INFO 12053 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-21 15:39:17,815 INFO 12053 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-21 15:39:17,816 INFO 12053 [egg-watcher:agent] watcher start success
+2020-05-21 15:39:17,822 INFO 12053 [egg:core] dump config after ready, 2ms
+2020-05-21 15:39:18,830 INFO 12053 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12256429,"size":64,"blocks":0,"atimeMs":1590046758818.3718,"mtimeMs":1590046758818.3718,"ctimeMs":1590046758818.3718,"birthtimeMs":1590046758818.3718,"atime":"2020-05-21T07:39:18.818Z","mtime":"2020-05-21T07:39:18.818Z","ctime":"2020-05-21T07:39:18.818Z","birthtime":"2020-05-21T07:39:18.818Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-05-21 16:24:15,287 WARN 12053 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router.js change
+2020-05-21 16:24:15,083 INFO 12053 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216168,"size":227,"blocks":8,"atimeMs":1590049455020.8826,"mtimeMs":1590049455021.28,"ctimeMs":1590049455021.28,"birthtimeMs":1590046033735.0457,"atime":"2020-05-21T08:24:15.021Z","mtime":"2020-05-21T08:24:15.021Z","ctime":"2020-05-21T08:24:15.021Z","birthtime":"2020-05-21T07:27:13.735Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:24:45,923 WARN 12053 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/home.js change
+2020-05-21 16:24:45,719 INFO 12053 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216173,"size":304,"blocks":8,"atimeMs":1590049485659.609,"mtimeMs":1590049485660.1875,"ctimeMs":1590049485660.1875,"birthtimeMs":1590046033736.1477,"atime":"2020-05-21T08:24:45.660Z","mtime":"2020-05-21T08:24:45.660Z","ctime":"2020-05-21T08:24:45.660Z","birthtime":"2020-05-21T07:27:13.736Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:25:39,957 INFO 12993 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-21 16:25:39,967 INFO 12993 [egg:core] dump config after load, 3ms
+2020-05-21 16:25:40,012 INFO 12993 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-21 16:25:40,012 INFO 12993 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-21 16:25:40,013 INFO 12993 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-21 16:25:40,013 INFO 12993 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-21 16:25:40,013 INFO 12993 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-21 16:25:40,013 INFO 12993 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-21 16:25:40,013 INFO 12993 [egg-watcher:agent] watcher start success
+2020-05-21 16:25:40,023 INFO 12993 [egg:core] dump config after ready, 3ms
+2020-05-21 16:32:27,940 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/admin","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264597,"size":64,"blocks":0,"atimeMs":1590049947938.9307,"mtimeMs":1590049947826.3496,"ctimeMs":1590049947826.3496,"birthtimeMs":1590049947826.3496,"atime":"2020-05-21T08:32:27.939Z","mtime":"2020-05-21T08:32:27.826Z","ctime":"2020-05-21T08:32:27.826Z","birthtime":"2020-05-21T08:32:27.826Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-05-21 16:32:35,526 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264605,"size":64,"blocks":0,"atimeMs":1590049955526.039,"mtimeMs":1590049955515.265,"ctimeMs":1590049955515.265,"birthtimeMs":1590049955515.265,"atime":"2020-05-21T08:32:35.526Z","mtime":"2020-05-21T08:32:35.515Z","ctime":"2020-05-21T08:32:35.515Z","birthtime":"2020-05-21T08:32:35.515Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-05-21 16:32:54,010 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":0,"blocks":0,"atimeMs":1590049974009.7744,"mtimeMs":1590049973948.0168,"ctimeMs":1590049973948.0168,"birthtimeMs":1590049973948.0168,"atime":"2020-05-21T08:32:54.010Z","mtime":"2020-05-21T08:32:53.948Z","ctime":"2020-05-21T08:32:53.948Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:32:54,213 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js rename
+2020-05-21 16:33:10,027 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":198,"blocks":8,"atimeMs":1590049989964.9104,"mtimeMs":1590049989965.665,"ctimeMs":1590049989965.665,"birthtimeMs":1590049973948.0168,"atime":"2020-05-21T08:33:09.965Z","mtime":"2020-05-21T08:33:09.966Z","ctime":"2020-05-21T08:33:09.966Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:33:10,231 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js rename
+2020-05-21 16:33:20,182 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/router","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264623,"size":64,"blocks":0,"atimeMs":1590050000182.0913,"mtimeMs":1590050000170.866,"ctimeMs":1590050000170.866,"birthtimeMs":1590050000170.866,"atime":"2020-05-21T08:33:20.182Z","mtime":"2020-05-21T08:33:20.171Z","ctime":"2020-05-21T08:33:20.171Z","birthtime":"2020-05-21T08:33:20.171Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-05-21 16:33:42,429 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/default","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264632,"size":64,"blocks":0,"atimeMs":1590050022328.0142,"mtimeMs":1590050022316.8323,"ctimeMs":1590050022316.8323,"birthtimeMs":1590050022316.8323,"atime":"2020-05-21T08:33:42.328Z","mtime":"2020-05-21T08:33:42.317Z","ctime":"2020-05-21T08:33:42.317Z","birthtime":"2020-05-21T08:33:42.317Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-05-21 16:33:46,650 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/default/default","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264634,"size":64,"blocks":0,"atimeMs":1590050026648.5896,"mtimeMs":1590050026637.49,"ctimeMs":1590050026637.49,"birthtimeMs":1590050026637.49,"atime":"2020-05-21T08:33:46.649Z","mtime":"2020-05-21T08:33:46.637Z","ctime":"2020-05-21T08:33:46.637Z","birthtime":"2020-05-21T08:33:46.637Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-05-21 16:34:02,756 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/admin","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264642,"size":64,"blocks":0,"atimeMs":1590050042363.5176,"mtimeMs":1590050042353.352,"ctimeMs":1590050042353.352,"birthtimeMs":1590050042353.352,"atime":"2020-05-21T08:34:02.364Z","mtime":"2020-05-21T08:34:02.353Z","ctime":"2020-05-21T08:34:02.353Z","birthtime":"2020-05-21T08:34:02.353Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-05-21 16:34:09,290 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/default/default","remove":true,"isDirectory":true,"isFile":false}
+2020-05-21 16:36:57,602 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/default","remove":true,"isDirectory":true,"isFile":false}
+2020-05-21 16:37:06,578 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/admin","remove":true,"isDirectory":true,"isFile":false}
+2020-05-21 16:37:15,721 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264732,"size":0,"blocks":0,"atimeMs":1590050235709.815,"mtimeMs":1590050235709.815,"ctimeMs":1590050235709.815,"birthtimeMs":1590050235709.815,"atime":"2020-05-21T08:37:15.710Z","mtime":"2020-05-21T08:37:15.710Z","ctime":"2020-05-21T08:37:15.710Z","birthtime":"2020-05-21T08:37:15.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:37:15,926 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/admin.js rename
+2020-05-21 16:37:22,910 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/default.js rename
+2020-05-21 16:37:22,706 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264734,"size":0,"blocks":0,"atimeMs":1590050242694.581,"mtimeMs":1590050242694.581,"ctimeMs":1590050242694.581,"birthtimeMs":1590050242694.581,"atime":"2020-05-21T08:37:22.695Z","mtime":"2020-05-21T08:37:22.695Z","ctime":"2020-05-21T08:37:22.695Z","birthtime":"2020-05-21T08:37:22.695Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:38:28,777 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/default.js change
+2020-05-21 16:38:28,571 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264734,"size":64,"blocks":8,"atimeMs":1590050308512.0503,"mtimeMs":1590050308513.0383,"ctimeMs":1590050308513.0383,"birthtimeMs":1590050242694.581,"atime":"2020-05-21T08:38:28.512Z","mtime":"2020-05-21T08:38:28.513Z","ctime":"2020-05-21T08:38:28.513Z","birthtime":"2020-05-21T08:37:22.695Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:39:02,040 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/default.js change
+2020-05-21 16:39:01,836 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264734,"size":65,"blocks":8,"atimeMs":1590050341773.293,"mtimeMs":1590050341774.047,"ctimeMs":1590050341774.047,"birthtimeMs":1590050242694.581,"atime":"2020-05-21T08:39:01.773Z","mtime":"2020-05-21T08:39:01.774Z","ctime":"2020-05-21T08:39:01.774Z","birthtime":"2020-05-21T08:37:22.695Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:40:30,849 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/default.js change
+2020-05-21 16:40:30,646 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264734,"size":128,"blocks":8,"atimeMs":1590050430583.3848,"mtimeMs":1590050430584.7898,"ctimeMs":1590050430584.7898,"birthtimeMs":1590050242694.581,"atime":"2020-05-21T08:40:30.583Z","mtime":"2020-05-21T08:40:30.585Z","ctime":"2020-05-21T08:40:30.585Z","birthtime":"2020-05-21T08:37:22.695Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:41:16,379 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router.js change
+2020-05-21 16:41:16,174 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216168,"size":138,"blocks":8,"atimeMs":1590050476110.4473,"mtimeMs":1590050476112.1096,"ctimeMs":1590050476112.1096,"birthtimeMs":1590046033735.0457,"atime":"2020-05-21T08:41:16.110Z","mtime":"2020-05-21T08:41:16.112Z","ctime":"2020-05-21T08:41:16.112Z","birthtime":"2020-05-21T07:27:13.735Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:42:22,013 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/home.js rename
+2020-05-21 16:42:21,813 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/home.js","remove":true,"isDirectory":false,"isFile":false}
+2020-05-21 16:48:29,552 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":202,"blocks":8,"atimeMs":1590050909490.7637,"mtimeMs":1590050909491.4036,"ctimeMs":1590050909491.4036,"birthtimeMs":1590049973948.0168,"atime":"2020-05-21T08:48:29.491Z","mtime":"2020-05-21T08:48:29.491Z","ctime":"2020-05-21T08:48:29.491Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 16:48:29,754 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-05-21 19:22:12,808 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/plugin.js change
+2020-05-21 19:22:12,604 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216171,"size":190,"blocks":8,"atimeMs":1590060132538.5693,"mtimeMs":1590060132539.7188,"ctimeMs":1590060132539.7188,"birthtimeMs":1590046033735.8086,"atime":"2020-05-21T11:22:12.539Z","mtime":"2020-05-21T11:22:12.540Z","ctime":"2020-05-21T11:22:12.540Z","birthtime":"2020-05-21T07:27:13.736Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-21 19:23:54,928 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/config.default.js change
+2020-05-21 19:23:54,723 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216170,"size":955,"blocks":8,"atimeMs":1590060234659.9143,"mtimeMs":1590060234661.0835,"ctimeMs":1590060234661.0835,"birthtimeMs":1590046033735.3484,"atime":"2020-05-21T11:23:54.660Z","mtime":"2020-05-21T11:23:54.661Z","ctime":"2020-05-21T11:23:54.661Z","birthtime":"2020-05-21T07:27:13.735Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-22 14:00:23,905 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/rpk rename
+2020-05-22 14:00:23,696 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/config/rpk","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12379213,"size":0,"blocks":0,"atimeMs":1590127223580.921,"mtimeMs":1590127223580.921,"ctimeMs":1590127223580.921,"birthtimeMs":1590127223580.921,"atime":"2020-05-22T06:00:23.581Z","mtime":"2020-05-22T06:00:23.581Z","ctime":"2020-05-22T06:00:23.581Z","birthtime":"2020-05-22T06:00:23.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-22 14:00:51,928 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/rpk change
+2020-05-22 14:00:51,723 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/config/rpk","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12379213,"size":450,"blocks":8,"atimeMs":1590127251658.219,"mtimeMs":1590127251658.6895,"ctimeMs":1590127251658.6895,"birthtimeMs":1590127223580.921,"atime":"2020-05-22T06:00:51.658Z","mtime":"2020-05-22T06:00:51.659Z","ctime":"2020-05-22T06:00:51.659Z","birthtime":"2020-05-22T06:00:23.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-22 14:01:01,492 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/rpk change
+2020-05-22 14:01:01,285 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/config/rpk的副本","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12379254,"size":450,"blocks":8,"atimeMs":1590127261255.7837,"mtimeMs":1590127251658.6895,"ctimeMs":1590127261275.8723,"birthtimeMs":1590127223580.921,"atime":"2020-05-22T06:01:01.256Z","mtime":"2020-05-22T06:00:51.659Z","ctime":"2020-05-22T06:01:01.276Z","birthtime":"2020-05-22T06:00:23.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-22 14:01:01,287 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/config/rpk","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12379213,"size":450,"blocks":8,"atimeMs":1590127261255.7837,"mtimeMs":1590127251658.6895,"ctimeMs":1590127251658.6895,"birthtimeMs":1590127223580.921,"atime":"2020-05-22T06:01:01.256Z","mtime":"2020-05-22T06:00:51.659Z","ctime":"2020-05-22T06:00:51.659Z","birthtime":"2020-05-22T06:00:23.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-22 14:01:04,906 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/rpk的副本 rename
+2020-05-22 14:01:04,701 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/config/rpk的副本","remove":true,"isDirectory":false,"isFile":false}
+2020-05-22 14:01:27,395 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/rpk rename
+2020-05-22 14:01:27,193 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/config/rpk","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12379213,"size":450,"blocks":8,"atimeMs":1590127261255.7837,"mtimeMs":1590127251658.6895,"ctimeMs":1590127251658.6895,"birthtimeMs":1590127223580.921,"atime":"2020-05-22T06:01:01.256Z","mtime":"2020-05-22T06:00:51.659Z","ctime":"2020-05-22T06:00:51.659Z","birthtime":"2020-05-22T06:00:23.581Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-22 17:10:20,076 WARN 12993 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/rpk rename
+2020-05-22 17:10:19,859 INFO 12993 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/tmac/Desktop/study/project/blog/service/config/rpk","remove":true,"isDirectory":false,"isFile":false}
+2020-05-22 17:10:34,230 INFO 36630 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-22 17:10:34,247 INFO 36630 [egg:core] dump config after load, 11ms
+2020-05-22 17:10:34,286 INFO 36630 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-22 17:10:34,286 INFO 36630 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-22 17:10:34,286 INFO 36630 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-22 17:10:34,286 INFO 36630 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-22 17:10:34,286 INFO 36630 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-22 17:10:34,286 INFO 36630 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-22 17:10:34,287 INFO 36630 [egg-watcher:agent] watcher start success
+2020-05-22 17:10:34,303 INFO 36630 [egg:core] dump config after ready, 3ms
+2020-05-22 22:24:31,914 ERROR 36630 nodejs.ClusterClientNoResponseError: client no response in 10810648ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36630
+hostname: DDZR05WL414
+
+2020-05-23 00:32:59,109 ERROR 36630 nodejs.ClusterClientNoResponseError: client no response in 1822272ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36630
+hostname: DDZR05WL414
+
+2020-05-23 03:00:11,479 ERROR 36630 nodejs.ClusterClientNoResponseError: client no response in 6436103ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36630
+hostname: DDZR05WL414
+
+2020-05-23 03:16:30,231 ERROR 36630 nodejs.ClusterClientNoResponseError: client no response in 938721ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36630
+hostname: DDZR05WL414
+
+2020-05-23 12:30:11,537 ERROR 36630 nodejs.ClusterClientNoResponseError: client no response in 33221306ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36630
+hostname: DDZR05WL414
+
+2020-05-23 13:10:13,113 ERROR 36630 nodejs.ClusterClientNoResponseError: client no response in 2301552ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36630
+hostname: DDZR05WL414
+
+2020-05-23 13:36:22,057 ERROR 36630 nodejs.ClusterClientNoResponseError: client no response in 1428894ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36630
+hostname: DDZR05WL414
+
+2020-05-23 14:18:10,008 ERROR 36630 nodejs.ClusterClientNoResponseError: client no response in 1307866ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36630
+hostname: DDZR05WL414
+
+2020-05-24 15:51:55,968 INFO 10330 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 15:51:55,977 INFO 10330 [egg:core] dump config after load, 3ms
+2020-05-24 15:51:56,014 INFO 10330 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 15:51:56,014 INFO 10330 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 15:51:56,014 INFO 10330 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 15:51:56,014 INFO 10330 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 15:51:56,014 INFO 10330 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 15:51:56,015 INFO 10330 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 15:51:56,015 INFO 10330 [egg-watcher:agent] watcher start success
+2020-05-24 15:51:56,024 INFO 10330 [egg:core] dump config after ready, 3ms
+2020-05-24 16:38:07,044 WARN 10330 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-05-24 16:38:06,837 INFO 10330 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":300,"blocks":8,"atimeMs":1590309486772.921,"mtimeMs":1590309486773.6436,"ctimeMs":1590309486773.6436,"birthtimeMs":1590049973948.0168,"atime":"2020-05-24T08:38:06.773Z","mtime":"2020-05-24T08:38:06.774Z","ctime":"2020-05-24T08:38:06.774Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-24 16:40:01,217 WARN 10330 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-05-24 16:40:01,012 INFO 10330 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":325,"blocks":8,"atimeMs":1590309600944.5916,"mtimeMs":1590309600951.3591,"ctimeMs":1590309600951.3591,"birthtimeMs":1590049973948.0168,"atime":"2020-05-24T08:40:00.945Z","mtime":"2020-05-24T08:40:00.951Z","ctime":"2020-05-24T08:40:00.951Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-24 16:41:06,054 INFO 10995 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 16:41:06,064 INFO 10995 [egg:core] dump config after load, 4ms
+2020-05-24 16:41:06,094 INFO 10995 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 16:41:06,094 INFO 10995 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 16:41:06,094 INFO 10995 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 16:41:06,094 INFO 10995 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 16:41:06,095 INFO 10995 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 16:41:06,095 INFO 10995 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 16:41:06,095 INFO 10995 [egg-watcher:agent] watcher start success
+2020-05-24 16:41:06,108 INFO 10995 [egg:core] dump config after ready, 4ms
+2020-05-24 16:45:44,843 WARN 10995 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-05-24 16:45:44,635 INFO 10995 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":369,"blocks":8,"atimeMs":1590309944571.2358,"mtimeMs":1590309944572.04,"ctimeMs":1590309944572.04,"birthtimeMs":1590049973948.0168,"atime":"2020-05-24T08:45:44.571Z","mtime":"2020-05-24T08:45:44.572Z","ctime":"2020-05-24T08:45:44.572Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-24 16:45:59,529 INFO 11064 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 16:45:59,538 INFO 11064 [egg:core] dump config after load, 3ms
+2020-05-24 16:45:59,567 INFO 11064 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 16:45:59,568 INFO 11064 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 16:45:59,568 INFO 11064 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 16:45:59,568 INFO 11064 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 16:45:59,568 INFO 11064 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 16:45:59,568 INFO 11064 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 16:45:59,568 INFO 11064 [egg-watcher:agent] watcher start success
+2020-05-24 16:45:59,578 INFO 11064 [egg:core] dump config after ready, 3ms
+2020-05-24 16:46:34,491 WARN 11064 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-05-24 16:46:34,284 INFO 11064 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":384,"blocks":8,"atimeMs":1590309994219.543,"mtimeMs":1590309994220.3796,"ctimeMs":1590309994220.3796,"birthtimeMs":1590049973948.0168,"atime":"2020-05-24T08:46:34.220Z","mtime":"2020-05-24T08:46:34.220Z","ctime":"2020-05-24T08:46:34.220Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-24 16:46:54,978 INFO 11145 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 16:46:54,989 INFO 11145 [egg:core] dump config after load, 4ms
+2020-05-24 16:46:55,020 INFO 11145 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 16:46:55,020 INFO 11145 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 16:46:55,021 INFO 11145 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 16:46:55,021 INFO 11145 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 16:46:55,021 INFO 11145 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 16:46:55,021 INFO 11145 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 16:46:55,021 INFO 11145 [egg-watcher:agent] watcher start success
+2020-05-24 16:46:55,031 INFO 11145 [egg:core] dump config after ready, 3ms
+2020-05-24 16:47:07,806 WARN 11145 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-05-24 16:47:07,599 INFO 11145 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":378,"blocks":8,"atimeMs":1590310027581.5598,"mtimeMs":1590310027583.4377,"ctimeMs":1590310027583.4377,"birthtimeMs":1590049973948.0168,"atime":"2020-05-24T08:47:07.582Z","mtime":"2020-05-24T08:47:07.583Z","ctime":"2020-05-24T08:47:07.583Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-24 16:49:33,421 INFO 11145 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216171,"size":208,"blocks":8,"atimeMs":1590310173357.7087,"mtimeMs":1590310173358.4731,"ctimeMs":1590310173358.4731,"birthtimeMs":1590046033735.8086,"atime":"2020-05-24T08:49:33.358Z","mtime":"2020-05-24T08:49:33.358Z","ctime":"2020-05-24T08:49:33.358Z","birthtime":"2020-05-21T07:27:13.736Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-24 16:49:33,627 WARN 11145 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/plugin.js change
+2020-05-24 16:49:45,128 INFO 11176 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 16:49:45,137 INFO 11176 [egg:core] dump config after load, 3ms
+2020-05-24 16:49:45,166 INFO 11176 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 16:49:45,166 INFO 11176 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 16:49:45,167 INFO 11176 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 16:49:45,167 INFO 11176 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 16:49:45,167 INFO 11176 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 16:49:45,167 INFO 11176 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 16:49:45,167 INFO 11176 [egg-watcher:agent] watcher start success
+2020-05-24 16:49:45,177 INFO 11176 [egg:core] dump config after ready, 3ms
+2020-05-24 16:51:47,342 INFO 11200 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 16:51:47,351 INFO 11200 [egg:core] dump config after load, 3ms
+2020-05-24 16:51:47,381 INFO 11200 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 16:51:47,381 INFO 11200 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 16:51:47,382 INFO 11200 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 16:51:47,382 INFO 11200 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 16:51:47,382 INFO 11200 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 16:51:47,382 INFO 11200 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 16:51:47,382 INFO 11200 [egg-watcher:agent] watcher start success
+2020-05-24 16:51:47,391 INFO 11200 [egg:core] dump config after ready, 2ms
+2020-05-24 17:04:38,971 INFO 11879 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 17:04:38,980 INFO 11879 [egg:core] dump config after load, 4ms
+2020-05-24 17:04:39,009 INFO 11879 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 17:04:39,009 INFO 11879 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 17:04:39,010 INFO 11879 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 17:04:39,010 INFO 11879 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 17:04:39,010 INFO 11879 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 17:04:39,010 INFO 11879 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 17:04:39,010 INFO 11879 [egg-watcher:agent] watcher start success
+2020-05-24 17:04:39,019 INFO 11879 [egg:core] dump config after ready, 3ms
+2020-05-24 17:09:29,115 INFO 12273 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 17:09:29,124 INFO 12273 [egg:core] dump config after load, 3ms
+2020-05-24 17:09:29,154 INFO 12273 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 17:09:29,154 INFO 12273 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 17:09:29,154 INFO 12273 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 17:09:29,154 INFO 12273 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 17:09:29,154 INFO 12273 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 17:09:29,154 INFO 12273 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 17:09:29,154 INFO 12273 [egg-watcher:agent] watcher start success
+2020-05-24 17:09:29,163 INFO 12273 [egg:core] dump config after ready, 2ms
+2020-05-24 17:10:36,628 INFO 12285 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 17:10:36,637 INFO 12285 [egg:core] dump config after load, 3ms
+2020-05-24 17:10:36,666 INFO 12285 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 17:10:36,667 INFO 12285 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 17:10:36,667 INFO 12285 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 17:10:36,667 INFO 12285 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 17:10:36,667 INFO 12285 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 17:10:36,667 INFO 12285 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 17:10:36,667 INFO 12285 [egg-watcher:agent] watcher start success
+2020-05-24 17:10:36,676 INFO 12285 [egg:core] dump config after ready, 2ms
+2020-05-24 17:11:28,294 WARN 12285 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/config.default.js change
+2020-05-24 17:11:28,088 INFO 12285 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216170,"size":951,"blocks":8,"atimeMs":1590311488022.3467,"mtimeMs":1590311488023.1875,"ctimeMs":1590311488023.1875,"birthtimeMs":1590046033735.3484,"atime":"2020-05-24T09:11:28.022Z","mtime":"2020-05-24T09:11:28.023Z","ctime":"2020-05-24T09:11:28.023Z","birthtime":"2020-05-21T07:27:13.735Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-24 17:11:50,993 INFO 12321 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 17:11:51,002 INFO 12321 [egg:core] dump config after load, 3ms
+2020-05-24 17:11:51,031 INFO 12321 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 17:11:51,031 INFO 12321 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 17:11:51,031 INFO 12321 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 17:11:51,031 INFO 12321 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 17:11:51,031 INFO 12321 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 17:11:51,031 INFO 12321 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 17:11:51,032 INFO 12321 [egg-watcher:agent] watcher start success
+2020-05-24 17:11:51,041 INFO 12321 [egg:core] dump config after ready, 3ms
+2020-05-24 22:18:12,441 WARN 12321 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-05-24 22:18:12,233 INFO 12321 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":381,"blocks":8,"atimeMs":1590329892167.6135,"mtimeMs":1590329892169.3726,"ctimeMs":1590329892169.3726,"birthtimeMs":1590049973948.0168,"atime":"2020-05-24T14:18:12.168Z","mtime":"2020-05-24T14:18:12.169Z","ctime":"2020-05-24T14:18:12.169Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-24 22:19:46,642 WARN 12321 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-05-24 22:19:46,437 INFO 12321 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":384,"blocks":8,"atimeMs":1590329986375.5208,"mtimeMs":1590329986380.6377,"ctimeMs":1590329986380.6377,"birthtimeMs":1590049973948.0168,"atime":"2020-05-24T14:19:46.376Z","mtime":"2020-05-24T14:19:46.381Z","ctime":"2020-05-24T14:19:46.381Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-05-24 22:20:06,419 INFO 15382 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-24 22:20:06,429 INFO 15382 [egg:core] dump config after load, 3ms
+2020-05-24 22:20:06,461 INFO 15382 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-05-24 22:20:06,461 INFO 15382 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-05-24 22:20:06,461 INFO 15382 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-05-24 22:20:06,461 INFO 15382 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-05-24 22:20:06,461 INFO 15382 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-05-24 22:20:06,461 INFO 15382 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-05-24 22:20:06,461 INFO 15382 [egg-watcher:agent] watcher start success
+2020-05-24 22:20:06,471 INFO 15382 [egg:core] dump config after ready, 3ms

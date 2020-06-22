@@ -1,0 +1,32 @@
+2020-06-19 16:14:55,673 INFO 91475 [egg-logrotator] app logger reload: got log-reload message
+2020-06-20 07:29:26,988 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 09:15:12,860 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 16:02:55,862 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 18:18:18,385 WARN 91475 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-20 18:18:18,386 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 19:34:21,560 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 19:40:03,484 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 19:45:45,381 WARN 91475 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-20 19:45:45,384 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 19:51:27,297 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 19:56:49,200 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 20:02:31,136 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 20:15:09,117 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 20:54:31,417 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 20:59:53,323 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 21:05:35,233 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 21:11:22,201 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 21:16:44,113 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 21:22:26,133 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 21:59:44,705 WARN 91475 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-20 21:59:44,705 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 22:05:26,626 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 22:10:48,557 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 22:16:30,462 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 22:22:12,412 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 22:27:34,309 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 22:45:27,573 WARN 91475 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-06-20 22:45:27,573 WARN 91475 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-20 22:58:51,975 INFO 91475 [egg-logrotator] clean all log before 31 days
+2020-06-20 22:58:52,923 INFO 91475 [egg-logrotator] broadcast log-reload
+2020-06-20 22:58:52,923 INFO 91475 [egg-logrotator] rotate files success by DayRotator, files ["/Users/tmac/Desktop/study/project/blog/service/logs/service/common-error.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/common-error.log.2020-06-19","/Users/tmac/Desktop/study/project/blog/service/logs/service/service-web.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/service-web.log.2020-06-19","/Users/tmac/Desktop/study/project/blog/service/logs/service/egg-web.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/egg-web.log.2020-06-19","/Users/tmac/Desktop/study/project/blog/service/logs/service/egg-schedule.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/egg-schedule.log.2020-06-19","/Users/tmac/Desktop/study/project/blog/service/logs/service/egg-agent.log -> /Users/tmac/Desktop/study/project/blog/service/logs/service/egg-agent.log.2020-06-19"]

@@ -1,0 +1,513 @@
+2020-05-28 15:56:24,502 INFO 46408 [egg-logrotator] agent logger reload: got log-reload message
+2020-05-29 07:40:53,253 ERROR 46408 nodejs.ClusterClientNoResponseError: client no response in 43189740ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 46408
+hostname: DDZR05WL414
+
+2020-05-29 10:13:30,877 ERROR 46408 nodejs.ClusterClientNoResponseError: client no response in 9057637ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 46408
+hostname: DDZR05WL414
+
+2020-06-11 15:48:16,365 INFO 31281 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-11 15:48:16,376 INFO 31281 [egg:core] dump config after load, 4ms
+2020-06-11 15:48:16,414 INFO 31281 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-06-11 15:48:16,414 INFO 31281 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-06-11 15:48:16,414 INFO 31281 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-06-11 15:48:16,414 INFO 31281 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-06-11 15:48:16,414 INFO 31281 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-06-11 15:48:16,414 INFO 31281 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-06-11 15:48:16,414 INFO 31281 [egg-watcher:agent] watcher start success
+2020-06-11 15:48:16,425 INFO 31281 [egg:core] dump config after ready, 3ms
+2020-06-11 20:02:09,177 ERROR 31281 nodejs.ClusterClientNoResponseError: client no response in 2325574ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31281
+hostname: DDZR05WL414
+
+2020-06-11 22:03:07,303 ERROR 31281 nodejs.ClusterClientNoResponseError: client no response in 7218106ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31281
+hostname: DDZR05WL414
+
+2020-06-11 22:36:41,412 ERROR 31281 nodejs.ClusterClientNoResponseError: client no response in 1974102ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31281
+hostname: DDZR05WL414
+
+2020-06-12 00:38:19,743 ERROR 31281 nodejs.ClusterClientNoResponseError: client no response in 7218244ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31281
+hostname: DDZR05WL414
+
+2020-06-12 02:39:17,805 ERROR 31281 nodejs.ClusterClientNoResponseError: client no response in 7218052ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31281
+hostname: DDZR05WL414
+
+2020-06-12 04:39:55,950 ERROR 31281 nodejs.ClusterClientNoResponseError: client no response in 7218130ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31281
+hostname: DDZR05WL414
+
+2020-06-12 06:41:54,283 ERROR 31281 nodejs.ClusterClientNoResponseError: client no response in 7218307ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31281
+hostname: DDZR05WL414
+
+2020-06-12 08:42:32,442 ERROR 31281 nodejs.ClusterClientNoResponseError: client no response in 7218149ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31281
+hostname: DDZR05WL414
+
+2020-06-12 10:07:51,247 ERROR 31281 nodejs.ClusterClientNoResponseError: client no response in 5078810ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 31281
+hostname: DDZR05WL414
+
+2020-06-12 10:13:14,100 INFO 36029 [egg:logger] init all loggers with options: {"dir":"/Users/tmac/Desktop/study/project/blog/service/logs/service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-12 10:13:14,111 INFO 36029 [egg:core] dump config after load, 4ms
+2020-06-12 10:13:14,169 INFO 36029 [egg-watcher] Start watching: ["/Users/tmac/Desktop/study/project/blog/service/app","/Users/tmac/Desktop/study/project/blog/service/config","/Users/tmac/Desktop/study/project/blog/service/mocks","/Users/tmac/Desktop/study/project/blog/service/mocks_proxy","/Users/tmac/Desktop/study/project/blog/service/app.js"]
+2020-06-12 10:13:14,170 INFO 36029 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app"
+2020-06-12 10:13:14,170 INFO 36029 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/config"
+2020-06-12 10:13:14,170 INFO 36029 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks"
+2020-06-12 10:13:14,170 INFO 36029 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/mocks_proxy"
+2020-06-12 10:13:14,170 INFO 36029 [egg-watcher] Start watching: "/Users/tmac/Desktop/study/project/blog/service/app.js"
+2020-06-12 10:13:14,170 INFO 36029 [egg-watcher:agent] watcher start success
+2020-06-12 10:13:14,180 INFO 36029 [egg:core] dump config after ready, 3ms
+2020-06-12 10:37:19,535 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-06-12 10:37:19,330 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":1406,"blocks":8,"atimeMs":1591929439273.7183,"mtimeMs":1591929439278.4026,"ctimeMs":1591929439278.4026,"birthtimeMs":1590049973948.0168,"atime":"2020-06-12T02:37:19.274Z","mtime":"2020-06-12T02:37:19.278Z","ctime":"2020-06-12T02:37:19.278Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-12 10:37:27,558 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-06-12 10:37:27,355 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":1411,"blocks":8,"atimeMs":1591929447342.8442,"mtimeMs":1591929447343.7449,"ctimeMs":1591929447343.7449,"birthtimeMs":1590049973948.0168,"atime":"2020-06-12T02:37:27.343Z","mtime":"2020-06-12T02:37:27.344Z","ctime":"2020-06-12T02:37:27.344Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-12 12:48:11,131 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 2281749ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-12 13:03:32,197 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 881153ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-12 13:45:19,340 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 2467127ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-12 18:10:13,343 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 311310ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-12 19:08:10,039 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/default.js change
+2020-06-12 19:08:09,829 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264734,"size":306,"blocks":8,"atimeMs":1591960089765.1277,"mtimeMs":1591960089765.8184,"ctimeMs":1591960089765.8184,"birthtimeMs":1590050242694.581,"atime":"2020-06-12T11:08:09.765Z","mtime":"2020-06-12T11:08:09.766Z","ctime":"2020-06-12T11:08:09.766Z","birthtime":"2020-05-21T08:37:22.695Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-13 01:00:47,395 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 19670441ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-13 07:31:30,170 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 23400896ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 00:30:05,583 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 60946106ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 13:45:23,957 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 47718259ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 14:31:42,342 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 2778212ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 15:18:50,661 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 544195ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 16:14:34,854 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 3324178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 19:20:11,078 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 6191628ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 19:39:58,656 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-06-14 19:39:58,448 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":1912,"blocks":8,"atimeMs":1592134798378.9062,"mtimeMs":1592134798381.3938,"ctimeMs":1592134798381.3938,"birthtimeMs":1590049973948.0168,"atime":"2020-06-14T11:39:58.379Z","mtime":"2020-06-14T11:39:58.381Z","ctime":"2020-06-14T11:39:58.381Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-14 19:40:06,052 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js change
+2020-06-14 19:40:05,848 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264610,"size":1984,"blocks":8,"atimeMs":1592134805836.278,"mtimeMs":1592134805837.206,"ctimeMs":1592134805837.206,"birthtimeMs":1590049973948.0168,"atime":"2020-06-14T11:40:05.836Z","mtime":"2020-06-14T11:40:05.837Z","ctime":"2020-06-14T11:40:05.837Z","birthtime":"2020-05-21T08:32:53.948Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-14 19:41:25,810 WARN 36029 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/app/router/default.js change
+2020-06-14 19:41:25,606 INFO 36029 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/app/router/default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12264734,"size":385,"blocks":8,"atimeMs":1592134885543.2412,"mtimeMs":1592134885544.748,"ctimeMs":1592134885544.748,"birthtimeMs":1590050242694.581,"atime":"2020-06-14T11:41:25.543Z","mtime":"2020-06-14T11:41:25.545Z","ctime":"2020-06-14T11:41:25.545Z","birthtime":"2020-05-21T08:37:22.695Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-06-14 20:33:22,815 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 286863ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 20:39:04,724 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301880ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 20:44:46,592 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301842ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 20:50:28,494 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301865ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 20:55:50,438 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301926ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 20:58:59,884 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 149437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 21:05:41,803 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301869ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 21:11:23,708 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301881ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 21:17:05,603 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301843ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 21:22:28,788 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 303164ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 21:28:10,701 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301878ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 21:33:52,575 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301852ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 22:09:49,099 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 2116512ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 22:15:11,748 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 302632ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 22:20:54,004 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 302225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 22:26:35,913 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301890ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 22:32:17,963 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 302020ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 22:37:39,917 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 301919ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 23:19:12,485 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 2110502ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-14 23:22:14,146 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 141647ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-15 00:45:42,707 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 4923721ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-15 10:14:00,252 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 33996279ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-15 12:48:20,126 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 2178768ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-15 13:01:56,601 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 776454ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+
+2020-06-15 13:50:11,532 ERROR 36029 nodejs.ClusterClientNoResponseError: client no response in 2874915ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tmac/Desktop/study/project/blog/service/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 36029
+hostname: DDZR05WL414
+

@@ -1,0 +1,420 @@
+2020-05-24 16:38:57,668 ERROR 10921 [-/127.0.0.1/-/7ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 10921
+hostname: DDZR05WL414
+
+2020-05-24 16:40:04,241 ERROR 10935 [-/127.0.0.1/-/8ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 10935
+hostname: DDZR05WL414
+
+2020-05-24 16:40:05,407 ERROR 10935 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 10935
+hostname: DDZR05WL414
+
+2020-05-24 16:40:06,031 ERROR 10935 [-/127.0.0.1/-/0ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 10935
+hostname: DDZR05WL414
+
+2020-05-24 16:40:06,202 ERROR 10935 [-/127.0.0.1/-/0ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 10935
+hostname: DDZR05WL414
+
+2020-05-24 16:40:06,365 ERROR 10935 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 10935
+hostname: DDZR05WL414
+
+2020-05-24 16:40:06,491 ERROR 10935 [-/127.0.0.1/-/0ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 10935
+hostname: DDZR05WL414
+
+2020-05-24 16:40:06,614 ERROR 10935 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 10935
+hostname: DDZR05WL414
+
+2020-05-24 16:41:13,624 ERROR 11008 [-/127.0.0.1/-/8ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11008
+hostname: DDZR05WL414
+
+2020-05-24 16:41:14,709 ERROR 11008 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11008
+hostname: DDZR05WL414
+
+2020-05-24 16:41:15,313 ERROR 11008 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11008
+hostname: DDZR05WL414
+
+2020-05-24 16:41:16,054 ERROR 11008 [-/127.0.0.1/-/0ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11008
+hostname: DDZR05WL414
+
+2020-05-24 16:41:16,601 ERROR 11008 [-/127.0.0.1/-/0ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11008
+hostname: DDZR05WL414
+
+2020-05-24 16:41:16,778 ERROR 11008 [-/127.0.0.1/-/0ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11008
+hostname: DDZR05WL414
+
+2020-05-24 16:41:16,969 ERROR 11008 [-/127.0.0.1/-/0ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:8:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11008
+hostname: DDZR05WL414
+
+2020-05-24 16:46:07,012 ERROR 11068 [-/127.0.0.1/-/9ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:9:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11068
+hostname: DDZR05WL414
+
+2020-05-24 16:46:59,358 ERROR 11149 [-/127.0.0.1/-/9ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:9:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11149
+hostname: DDZR05WL414
+
+2020-05-24 16:47:11,834 ERROR 11151 [-/127.0.0.1/-/12ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (/Users/tmac/Desktop/study/project/blog/service/app/controller/default/home.js:9:40)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+
+pid: 11151
+hostname: DDZR05WL414
+
+2020-05-24 16:49:34,539 ERROR 11169 [-/127.0.0.1/-/0ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND localhost localhost:3306 (localhost) (localhost) (localhost)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+    --------------------
+    at Protocol._enqueue (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "localhost"
+host: "localhost"
+port: "3306"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 11169
+hostname: DDZR05WL414
+
+2020-05-24 16:49:46,018 ERROR 11180 [-/127.0.0.1/-/0ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND localhost localhost:3306 (localhost) (localhost) (localhost)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+    --------------------
+    at Protocol._enqueue (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "localhost"
+host: "localhost"
+port: "3306"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 11180
+hostname: DDZR05WL414
+
+2020-05-24 16:51:48,244 ERROR 11204 [-/127.0.0.1/-/0ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND localhost localhost:3306 (localhost) (localhost) (localhost)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+    --------------------
+    at Protocol._enqueue (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "localhost"
+host: "localhost"
+port: "3306"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 11204
+hostname: DDZR05WL414
+
+2020-05-24 17:04:39,870 ERROR 11883 [-/127.0.0.1/-/0ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND localhost localhost:3306 (localhost) (localhost) (localhost)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+    --------------------
+    at Protocol._enqueue (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "localhost"
+host: "localhost"
+port: "3306"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 11883
+hostname: DDZR05WL414
+
+2020-05-24 17:09:35,558 ERROR 12277 [-/127.0.0.1/-/0ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND http://127.0.0.1/ http://127.0.0.1/:3306 (http://127.0.0.1/) (http://127.0.0.1/) (http://127.0.0.1/)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+    --------------------
+    at Protocol._enqueue (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "http://127.0.0.1/"
+host: "http://127.0.0.1/"
+port: "3306"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 12277
+hostname: DDZR05WL414
+
+2020-05-24 17:11:29,139 ERROR 12295 [-/127.0.0.1/-/0ms GET /] nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND localhost localhost:3306 (localhost) (localhost) (localhost)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+    --------------------
+    at Protocol._enqueue (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/tmac/Desktop/study/project/blog/service/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/tmac/Desktop/study/project/blog/service/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ENOTFOUND"
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "localhost"
+host: "localhost"
+port: "3306"
+fatal: true
+name: "ENOTFOUNDError"
+pid: 12295
+hostname: DDZR05WL414
+

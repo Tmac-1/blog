@@ -1,0 +1,315 @@
+{
+  "keys": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+  "middleware": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+      "port": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+      "user": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+      "password": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+      "database": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js"
+    },
+    "app": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+    "agent": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+    "default": {
+      "database": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+      "type": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+    "protocolWhiteList": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+    "credentials": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js",
+    "allowMethods": "/Users/tmac/Desktop/study/project/blog/service/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "name": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "version": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "description": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "private": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "stop": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "dev": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "debug": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "test": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "cov": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "lint": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "ci": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "autod": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "url": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "license": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "strict": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "depth": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "env": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "level": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "logging": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "port": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/tmac/Desktop/study/project/blog/service/node_modules/egg/config/config.default.js"
+}

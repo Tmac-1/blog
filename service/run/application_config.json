@@ -196,7 +196,7 @@
       }
     },
     "cors": {
-      "origin": "http://localhost:3001",
+      "origin": "http://bjliuhe.net.cn",
       "credentials": true,
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
     },

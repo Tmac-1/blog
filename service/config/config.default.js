@@ -45,7 +45,7 @@ module.exports = (appInfo) => {
     domainWhiteList: ["*"],
   };
   config.cors = {
-    origin: "http://localhost:3001",
+    origin: "http://bjliuhe.net.cn",
     credentials: true,  //允许Cook可以跨域
     allowMethods: "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS",
   };

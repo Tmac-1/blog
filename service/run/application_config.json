@@ -188,10 +188,10 @@
       "app": true,
       "agent": false,
       "client": {
-        "host": "localhost",
+        "host": "39.106.124.176",
         "port": "3306",
         "user": "root",
-        "password": "<String len: 4>",
+        "password": "<String len: 16>",
         "database": "react_blog"
       }
     },

@@ -889,3 +889,5 @@ name: "ClusterClientNoResponseError"
 pid: 77608
 hostname: DJZR05WL414
 
+2020-06-22 17:51:22,326 WARN 77608 [agent:development] reload worker because /Users/tmac/Desktop/study/project/blog/service/config/config.default.js change
+2020-06-22 17:51:22,110 INFO 77608 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/tmac/Desktop/study/project/blog/service/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12216170,"size":1257,"blocks":8,"atimeMs":1592819482022.0557,"mtimeMs":1592819482023.8403,"ctimeMs":1592819482023.8403,"birthtimeMs":1590046033735.3484,"atime":"2020-06-22T09:51:22.022Z","mtime":"2020-06-22T09:51:22.024Z","ctime":"2020-06-22T09:51:22.024Z","birthtime":"2020-05-21T07:27:13.735Z"},"remove":false,"isDirectory":false,"isFile":true}

@@ -22,13 +22,14 @@ module.exports = (appInfo) => {
     // database configuration
     client: {
       // host
-      host: "localhost",
+      // host: "localhost",
+      host: "39.106.124.176",
       // port
       port: "3306",
       // username
       user: "root",
       // password
-      password: "1234",
+      password: "YIFh1nqJoKAIyRJ9",
       // database
       database: "react_blog",
     },

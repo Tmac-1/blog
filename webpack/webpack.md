@@ -38,3 +38,13 @@ babel-polyfill 提供更多语法转换
 >  2. b站基础知识点 http://www.woc12138.com/article/45
 >  3. b站进阶知识点 https://juejin.cn/post/6909719159773331463/#heading-7
 >
+
+### 构建性能优化  
+1.减少loader处理，给loader配置include（实质上就是减少对文件的处理）
+2.配置noparse选项（如jqery,lodash等模块在生产环境直接引用cdn地址）
+3.ignorePlugin忽略一些不需要的模块（如moment里面的国际化模块） 
+>https://www.bilibili.com/video/BV1Pf4y157Ni?p=52&spm_id_from=pageDriver
+
+4.DllPlugin第三方不容易变动的库单独打包成动态链接库 （先用DllPlugin构建出dll和manifest文件，再用DllReference插件建立引用）
+
+  

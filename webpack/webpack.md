@@ -44,7 +44,6 @@ babel-polyfill 提供更多语法转换
 2.配置noparse选项（如jqery,lodash等模块在生产环境直接引用cdn地址）
 3.ignorePlugin忽略一些不需要的模块（如moment里面的国际化模块） 
 >https://www.bilibili.com/video/BV1Pf4y157Ni?p=52&spm_id_from=pageDriver
-
 4.DllPlugin第三方不容易变动的库单独打包成动态链接库 （先用DllPlugin构建出dll和manifest文件，再用DllReference插件建立引用）
 
   

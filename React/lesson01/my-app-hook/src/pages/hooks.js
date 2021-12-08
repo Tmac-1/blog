@@ -2,21 +2,21 @@ import React, { useState, useEffect, useMemo } from 'react';
 
 export  function Demo() {
     const [n,setN] = useState(1)
-    // useEffect(()=>{
-    //     console.log('a',n)
-    //     return ()=>{
-    //         console.log('b',n)
-    //     }
-    // })
+    useEffect(()=>{
+        console.log('a',n)
+        return ()=>{
+            console.log('b',n)
+        }
+    })
     // 进入时候打印 a=1，每次点击时候 b=1 a=2
      return (
          <div onClick={()=>{setN(n+1)}}>test</div>
-    //    <div onClick={()=>{setN(n+1)}}>test</div>
      )
 }
 
 export const DemoState = (props) => {
     /* number为此时state读取值 ，setNumber为派发更新的函数 */
+    console.log('全局更新')
     let [number, setNumber] = useState(0) /* 0为初始值 */
     // console.log('number',number)
     return (<div>

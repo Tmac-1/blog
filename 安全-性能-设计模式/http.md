@@ -17,7 +17,7 @@ HTTP劫持是在使用者与其目的网络服务所建立的专用数据通道�
 ##### 常见安全漏洞
 1. sql注入 （预编译sql语句，然后执行）
 2. 恶意文件上传 （校验上传的文件资源属性，过滤文件后缀扩展名，随机生成文件名，禁止应用静态资源目录执行动态脚本）
-3. 跨站脚本攻击（xss）（url的encode，cookie设置http-only）
+3. 跨站脚本攻击（xss）（url的encode，cookie设置http-only, 返回的脚本转成html实体） https://www.jianshu.com/p/4fcb4b411a66
    - 反射型
    - 存贮型
    - DOM型

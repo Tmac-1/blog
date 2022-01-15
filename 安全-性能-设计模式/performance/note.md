@@ -18,8 +18,9 @@
    301 永久重定向 302 临时重定向 304 查询浏览器缓存进行返回
 
 
-
-
+##### 性能
+1. css 放最上面，防止页面重绘（页面是从上往下绘制的）
+2. js 放最下面，js会阻塞DOM解析，需要暂停DOM解析去执行js，需要等待css解析完毕才能执行，因为js要操作css的
 
 - Use HTTP/2 与HTTP/1.1相比，HTTP/2提供了许多优点，包括二进制报头和多路复用
 - Defer offscreen images 考虑在所有关键资源加载完毕后延迟加载屏幕外和隐藏的图像
@@ -40,3 +41,7 @@
 - <html> element does not have a [lang] attribute html没有语言属性
 - [user-scalable="no"] is used in the <meta name="viewport"> element or the [maximum-scale] attribute is less than 5.   禁用缩放是有问题的
 - Displays images with incorrect aspect ratio  显示宽高比不正确的图像
+
+
+##### performance API
+参考网址 https://blog.csdn.net/weixin_44135121/article/details/103952234

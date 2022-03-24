@@ -23,37 +23,27 @@ class EventsEmitter {
   constructor() {
     this.events = new Map();
   }
+  // 订阅
   on(name, callback) {
     if (!this.events.has(name)) {
-      this.events.set(name, callback);
+      this.events.set(name, [callback]);
     } else {
-      let listener = this.events.get(name);
-      if (Array.isArray(listener)) {
-        listener.push(callback);
-      } else {
-        listener = [listener, callback];
-      }
+      const listener = this.events.get(name);
+      listener.push(callback)
       this.events.set(name, listener);
     }
   }
+  // 发布
   emit(name, data) {
     if (this.events.has(name)) {
-      let listener = this.events.get(name);
-      if (Array.isArray(listener)) {
-        listener.forEach((item) => item(data));
-      } else {
-        listener(data);
-      }
+      const listener = this.events.get(name);
+      listener.forEach((item) => item.call(this,data));
     }
   }
   off(name, listener) {
-    let listeners = this.events.get(name);
-    if (Array.isArray(listener)) {
-      const index = listeners.indexOf(listener);
-      index > -1 && listeners.splice(index, 1);
-    } else {
-      listeners && this.events.delete(name);
-    }
+    const listeners = this.events.get(name);
+    const index = listeners.indexOf(listener);
+    index > -1 && listeners.splice(index, 1);
   }
 }
 let emitter = new EventsEmitter();
@@ -63,4 +53,4 @@ emitter.on("ev01", (val) => {
 emitter.on("ev01", (val) => {
   console.log("2", val);
 });
-emitter.emit("ev01", { data: 1 });
+emitter.emit("ev01", { data: 1 }); 

@@ -333,31 +333,18 @@
 // let res = await test()
 // console.log(res)
 
-new Promise((resolve, reject) => {
-  reject(2);
-})
-  .catch(
-    (res) => {
-       console.log('res1',res) 
-       return 1
-    },
-    (res) => {console.log('res2',res)}
-  )
-  .then(
-    (res) => console.log(res),
-    (res) => console.log(res)
-  );
-
-  new Promise((resolve, reject) => {
-    reject(2);
-  }).then(
-      (res) => {console.log("res1",res)},
-      // (res) => {console.log("res2",res)}
-  ).catch(
-     (res) => {
-        console.log('cres1',res) 
-        return 1
-     }
-   )
-
+class A {
+  constructor() {
+    this.name = 1
+  }
+  run() {
+    console.log(111)
+  }
+}
  
+class B extends A {
+
+}
+
+let b = new B()
+b.run()

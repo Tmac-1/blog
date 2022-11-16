@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "loader-utils": "^2.0.0",
+    "loader-utils": "^2.0.4",
     "webpack": "^5.12.2",
     "webpack-cli": "^4.3.1"
   }

@@ -9,3 +9,8 @@
 1. 观察者模式，多用于单个应用内部
 2. 发布订阅模式，则更多的是一种跨应用的模式(cross-application pattern)，比如我们常用的消息中间件
 https://zhuanlan.zhihu.com/p/51357583
+
+### 平时遇到的设计模式
+1. axios里面cancelToken取消重复请求用到发布订阅模式、webpack的插件中用到的Tapable模块
+2. webpack中loader处理文件用到的单一职责模式
+3. react里面高阶组件用到的装饰器模式

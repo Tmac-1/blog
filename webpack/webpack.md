@@ -5,10 +5,28 @@
 1. webpack是基于nodejs的,所以要基于CommonJS规范导出一个对象
 2. webpack不适用于构建JavaScript库，因为不够纯碎，会打包出来一个bootstrap函数
 
+### webpack5新特性
+1. 内置清除输出目录 clean: true
+2. 更优雅的处理资源模块 assetModuleFilename
+3. 打包体积优化 -> 深度嵌套的tree-shaking
+4. 将4的cache-loader进行了内置，默认开启，或者配置cache
+5. 模块联邦 - 微前端
+### 构建流程
+![](img/compiler.png)
+一个 compilation 对象会对构建依赖图中所有模块，进行编译。 在编译阶段，模块会被加载(load)、封存(seal)、优化(optimize)、 分块(chunk)、哈希(hash)和重新创建(restore)
+1. compile 开始编译
+2. make 从入口点分析模块及其依赖的模块，创建这些模块对象
+3. build-module 构建模块
+4. seal 封装构建结果
+5. emit 把各个chunk输出到结果文件
+
+https://blog.csdn.net/liu19721018/article/details/125763634
+
 ### Plugins
-Plugins可以在webpack运行到某个阶段的时候，帮你做一些事情，类似于生命周期的概念
-扩展插件，在webpack构建流程中的特定时机注入扩展逻辑来改变构建结果或者你想做的事情。
+Plugins可以在webpack运行到某个阶段的时候，帮你做一些事情，类似于生命周期的概念。扩展插件，在webpack构建流程中的特定时机注入扩展逻辑来改变构建结果或者你想做的事情。
 作用于整个构建过程
+
+站在代码角度：webpack在编译过程中，会广播事件，触发一系列Tapable（webpack核心功能库，提供了各种钩子）钩子事件，插件所做的，就是找到相应的钩子，往上面挂载自己的任务，也就是注册事件。webpack在构建的时候，插件注册的事件就会随着钩子的触发而执行了
 
 > Plugin:开始打包，在某个时刻，帮助我们处理一些什么事情的机制
 plugin要比loader稍微复杂一些，在webpack的源码中，用plugin的机制还是占有非常大的场景，
@@ -18,10 +36,26 @@ plugin要比loader稍微复杂一些，在webpack的源码中，用plugin的机�
 plugin是一个类，里面包含一个apply函数，接收一个参数，compiler
 
 ### Loaders
+- 同步loader
+- 异步loader: 会产生阻塞，当我们想拿到异步操作的结果传递给下一个loader时候，可以用异步loader，否则会传给下一个loader一个undefined
+- row loader ：content返回的是二进制数据，处理图片和字体等文件
+- pitch loader： pitch优先执行，一但有返回值，就不会执行后面loader，提供熔断机制
+  
 > babel-loader 负责和webpack搭建桥梁
 babel-core 是核心代码，提供很多api，转ast语法树等
 babel-preset-env 负责真正的转换工作，兼容各版本的语法特性，把es6转es5，但是支持的并不全
-babel-polyfill 提供更多语法转换
+babel-polyfill 提供更多语法转换 -> 现在已废弃，被corejs/stable取代
+``` C
+/**
+ *
+ * @param content 源文件的内容
+ * @param {object} [map] 可以被 https://github.com/mozilla/source-map 使用的 SourceMap 数据
+ * @param {any} [meta] meta 数据，可以是任何内容, 其他loader传递过来的数据
+ */
+module.exports = function webpackLoader(content, map, meta) {
+  // 你的 webpack loader 代码
+}
+```
 
 多页面打包 ：entry可以定义一个对象，plugins可以写多个htmlWebpackPlugins
 
@@ -31,13 +65,16 @@ babel-polyfill 提供更多语法转换
 
 - ##### compiler 和 compliation 区别
  不同点是 Compiler 是每个 Webpack 的配置，对应一个 Compiler 对象，记录着整个 Webpack 的生命周期；在构建的过程中，每次构建都会产生一次Compilation，Compilation 则是构建周期的产物。
+
+ compiler对象是一个全局单例，他负责把控整个webpack打包的构建流程。compilation对象是每一次构建的上下文对象，它包含了当次构建所需要的所有信息，每次热更新和重新构建，compiler都会重新生成一个新的compilation对象，负责此次更新的构建过程
+
  https://blog.csdn.net/weixin_42614080/article/details/110507675
  
 > 参考链接 
 >  1. 面试题 https://mp.weixin.qq.com/s/wm_7RvwIQxSow2K5IxZDvw
 >  2. b站基础知识点 http://www.woc12138.com/article/45
 >  3. b站进阶知识点 https://juejin.cn/post/6909719159773331463/#heading-7
->
+
 
 ### 构建性能优化  
 1.减少loader处理，给loader配置include（实质上就是减少对文件的处理）

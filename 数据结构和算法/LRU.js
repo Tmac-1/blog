@@ -40,9 +40,6 @@ console.log(cache.get(1));       // 返回 -1 (未找到)
 console.log(cache.get(3));       // 返回  3
 console.log(cache.get(4));       // 返回  4
 
-
-
-
 //  let test = new Map();
 //  test.set(1,{1:1})
 //  test.set(2,{2:2})

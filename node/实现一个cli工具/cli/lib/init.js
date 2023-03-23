@@ -16,7 +16,7 @@ const spawn = async (...args) => {
     return new Promise(resolve => {
         const proc = spawn(...args)
         // 和主进程对接
-        console.log('proc',proc)
+        // console.log('proc',proc)
         // proc.stdout.pipe(process.stdout)
         // proc.stderr.pipe(process.stderr)
         proc.on('close', () => {

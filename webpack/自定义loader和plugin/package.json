@@ -1,0 +1,18 @@
+{
+  "name": "loaderplugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js",
+    "debug": "node --inspect-brk ./node_modules/webpack-cli/bin/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^2.0.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^4.3.1"
+  }
+}

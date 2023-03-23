@@ -334,11 +334,11 @@
 // console.log(res)
 
 class A {
-  constructor() {
-    this.name = 1
+  constructor(options) {
+    this.name = options.name
   }
   run() {
-    console.log(111)
+    console.log(111,this.name)
   }
 }
  
@@ -346,5 +346,5 @@ class B extends A {
 
 }
 
-let b = new B()
+let b = new B({name:'tmac'})
 b.run()

@@ -1,0 +1,10 @@
+packages:
+  - packages/*
+  - cli
+  - docs
+  - example
+  # exclude packages that are inside test directories
+  - '!**/test/**'
+
+
+# 指定了 cli、docs、example 本身是 package，packages 目录下的子目录也是 package。同时排除了所有的 test 目录

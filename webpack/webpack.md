@@ -84,3 +84,19 @@ module.exports = function webpackLoader(content, map, meta) {
 4.DllPlugin第三方不容易变动的库单独打包成动态链接库 （先用DllPlugin构建出dll和manifest文件，再用DllReference插件建立引用）
 
   
+### rollup
+1. 小巧、提供一个充分利用esModule特性的高效打包器 
+2. 插件
+rollup-plugin-json：直接读取json模块
+rollup-plugin-node-resolve：rollup默认只能按照文件路径记载本地模块，配置这个插件，直接像引入即可，来加载npm模块 
+import _ from 'lodash-es' // 默认只支持esModule版本
+rollup-plugin-commoinjs：支持cjs的模块的记载
+3. 优点：
+   输出结果更加扁平
+   tree-shaking
+   打包结果依然完全可读
+4. 缺点
+   加载非ESM的第三方库比较复杂，要引入插件
+   模块最终都被打包到一个函数中，无法实现HMR
+   浏览器环境中，代码拆分功能依赖AMD库
+   

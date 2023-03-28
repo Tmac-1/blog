@@ -44,31 +44,6 @@ function binaryFind(num, arr, start, end) {
 }
 console.log(binaryFind(3, arr, 0, arr.length - 1));
 
-// 栈Stack 后进先出 只能操作队尾 push pop 操作    --- {(<>)} 括号匹配问题
-function legalBrackets(str) {
-  let stack = []
-  let map = {
-    '{': '}',
-    '[': ']',
-    '(': ')',
-  }
-  for (let item of str) {
-    if (map[item]) {
-      stack.push(item)
-    } else if (Object.values(map).includes(item)) {
-      let last = stack.pop()
-      if (item !== map[last]) return false
-    }
-  }
-  return stack.length == 0
-}
-console.log(legalBrackets("()")); //true
-console.log(legalBrackets("([ ) ]")); //false
-console.log(legalBrackets("([{ )]")); //false
-console.log(legalBrackets("()[ ]{}")); //true
-console.log(legalBrackets(" { ]")); //false
-console.log(legalBrackets("{ [ ] }")); //true
-console.log(legalBrackets("function a (){console.log(1111)}"))// true
 //  https://blog.csdn.net/mrdeng_web2018/article/details/108426604 
 // 链表 Hash表
 /**

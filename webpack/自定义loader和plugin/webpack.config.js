@@ -47,10 +47,14 @@ module.exports = {
                     },
                 ],
             },
-            // {
-            //     test: /\.js$/,
-            //     use: ['test1', 'test2', 'test3'],
-            // },
+            {
+                test: /\.js$/,
+                use: ['test1', 'test2'],
+            },
+            {
+                test: /\.js$/,
+                use: ['test3'],
+            },
             // {
             //     test: /\.js$/,
             //     use: ['styleLoader'],

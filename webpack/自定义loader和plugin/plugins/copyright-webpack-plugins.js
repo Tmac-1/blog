@@ -10,7 +10,7 @@ class CopyrightWebapckPlugin {
         complier.hooks.emit.tapAsync(
             "CopyrightWebapckPlugin111",
             (compilation, cb) => {
-                complier.hooks.processAssets.tap
+                // complier.hooks.processAssets.tap
                 // compilation.emitAsset('test.js','./dist',111)
                 compilation.assets["copyright.txt"] = {
                     // 文件内容   

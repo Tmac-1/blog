@@ -333,18 +333,99 @@
 // let res = await test()
 // console.log(res)
 
-class A {
-  constructor(options) {
-    this.name = options.name
-  }
-  run() {
-    console.log(111,this.name)
-  }
-}
+// class A {
+//   constructor(options) {
+//     this.name = options.name
+//   }
+//   run() {
+//     console.log(111,this.name)
+//   }
+// }
  
-class B extends A {
+// class B extends A {
 
+// }
+
+// let b = new B({name:'tmac'})
+// b.run()
+
+
+const handler = {
+  get(target,key,receiver){
+    console.log('get',key)
+    if(key === 'isReactive') {
+      return true
+    }
+     return Reflect.get(target,key,receiver)
+  },
+  set(target,key,value,receiver){
+     return Reflect.set(target,key,value,receiver)
+  }
 }
 
-let b = new B({name:'tmac'})
-b.run()
+function reactive(obj){
+  if(obj['isReactive']){
+    return obj
+  }
+  return new Proxy(obj,handler)
+}
+
+var obj = {a:1}
+var state = reactive(obj)
+
+// console.log(reactive(state) === state)
+state.a + 1
+state.a
+
+function fn(obj){
+  var a = obj.b
+  console.log(11,a)
+  if(!a){
+    a = obj.b = 1
+  }
+}
+var c = {c:1}
+fn(c)
+fn(c)
+
+const a = ()=>{
+  return 'a'
+}
+var set = new Set()
+set.add(a)
+set.add(a)
+console.log(set.size)
+
+
+// var test = 1
+// var step = 2
+// function add(){
+//   test += step  // test = test + step
+// }
+// add()
+// add()
+// console.log('test',test)
+
+const c = ()=>{
+  return 'c'
+}
+const b = ()=>{
+  return 'b'
+}
+function render(){
+  return (1,c(),b(),4)
+}
+console.log(render())
+
+
+const fn1 = ()=>{
+  console.log('fn1')
+}
+const fn2 = ()=>{
+  console.log('fn2')
+}
+const fn3 = ()=>{
+  console.log('fn3')
+}
+
+fn1(fn2(fn3()))

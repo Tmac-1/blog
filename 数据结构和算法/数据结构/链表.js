@@ -108,7 +108,7 @@ console.log('cities', cities)
 
 // 自定义instanceOf
 function instance_of(target, obj) {
-    const p = target;
+    let p = target;
     while (p) {
         if (p === obj.prototype) {
             return true
@@ -117,5 +117,5 @@ function instance_of(target, obj) {
     }
 }
 
-instance_of([1, 2, 3], Object)
+console.log(instance_of([1, 2, 3], Object))
 

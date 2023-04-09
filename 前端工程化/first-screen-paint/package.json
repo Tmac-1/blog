@@ -1,0 +1,40 @@
+{
+  "name": "first-screen-time",
+  "version": "1.0.0",
+  "description": "auto compute first screen time",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "rollup -c  --watch",
+    "serve": "rollup -c  --watch",
+    "build": "rollup -c --environment NODE_ENV:production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiudongwei/first-screen-time.git"
+  },
+  "keywords": [
+    "performance",
+    "first",
+    "screen",
+    "time"
+  ],
+  "author": "wilton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiudongwei/first-screen-time/issues"
+  },
+  "homepage": "https://github.com/qiudongwei/first-screen-time#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@rollup/plugin-babel": "^5.3.0",
+    "cross-env": "^7.0.3",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

@@ -83,7 +83,7 @@
     })
   }
 
-  // 颜色进制转化 https://www.jianshu.com/p/c99e1befdc98
+  // 颜色进制转化 https://www.jianshu.com/p/c99e1befdc98 http://www.sanhaostreet.com/it/202210/1824919.html
   String.prototype.colorHex = function () {
     // RGB颜色值的正则
     var reg = /^(rgb|RGB)/;

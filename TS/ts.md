@@ -10,6 +10,12 @@ interface SquareConfig {
 }
 ```
 
+### type 和 interface区别
+https://blog.csdn.net/weixin_43758377/article/details/110470780
+type可以声明基本类型别名、联合类型、元祖等类型
+interface只能声明对象类型，可以用&合并声明
+一般来说，能用interface实现，就用interface，如果不能就用type
+
 **泛形**：是指在定义函数、接口、类的时候，不预先指定具体的类型，而是在使用的时候再制定类型的一种特性
 ``` c
 function fun<T>(arg:T):T{return arg}
@@ -60,12 +66,6 @@ func2<T extends IArg>(arg: T):number {
   ```
 - 属性装饰器
 - 方法装饰器
-  
-### type 和 interface区别
-https://blog.csdn.net/weixin_43758377/article/details/110470780
-type可以声明基本类型别名、联合类型、元祖等类型
-interface只能声明对象类型，可以用&合并声明
-一般来说，能用interface实现，就用interface，如果不能就用type
 
 ### declare
 1. 声明全局变量、处理第三方库引用提示的TS报错问题
@@ -104,3 +104,7 @@ interface只能声明对象类型，可以用&合并声明
 
 ### 高级类型和用法
 https://blog.csdn.net/weCat_s/article/details/122554460
+
+### any和unknow区别
+https://blog.csdn.net/qq_51441159/article/details/128101007
+any 会绕过类型检查，直接可用，而 unkonwn 则必须要在判断完它是什么类型之后才能继续用

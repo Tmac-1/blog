@@ -10,8 +10,6 @@ add(1, 2) // 3
 var addCurry = curry(add);
 addCurry(1)(2) // 3
 
-
-
 function sub_curry(fn) {
     return function () {
         return fn()

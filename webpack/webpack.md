@@ -90,7 +90,7 @@ module.exports = function webpackLoader(content, map, meta) {
 rollup-plugin-json：直接读取json模块
 rollup-plugin-node-resolve：rollup默认只能按照文件路径记载本地模块，配置这个插件，直接像引入即可，来加载npm模块 
 import _ from 'lodash-es' // 默认只支持esModule版本
-rollup-plugin-commoinjs：支持cjs的模块的记载
+rollup-plugin-commoinjs：支持cjs的模块的加载
 3. 优点：
    输出结果更加扁平
    tree-shaking

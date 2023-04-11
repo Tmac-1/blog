@@ -37,7 +37,7 @@ console.log(quickSort([21, 45, 5, 12, 56, 8, 9]));//[5, 8,9,12, 21, 45, 56]
  * 原地快排，不占用额外空间，原地交换数据完成
  * 
  * */
-//冒泡排序   （双层for循环 位置交换）O(n^2)
+//冒泡排序 （双层for循环 位置交换）O(n^2)
 function bubbleSort(arr) {
     for (var i = 0; i < arr.length - 1; i++) {
         for (var j = i + 1; j < arr.length; j++) {

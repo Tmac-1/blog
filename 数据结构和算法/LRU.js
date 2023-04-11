@@ -5,23 +5,24 @@ class LRUCashed{
         this.max=max;
         this.cashed=new Map();
     }
+
     get(key){
         if(this.cashed.has(key)){
-            let value=this.cashed.get(key)
-            this.cashed.delete(key)
+            const value = this.cashed.get(key)
+            this.cashed.delete(key) // 用到了就删除，再新增，保持Map新用到始终在最后
             this.cashed.set(key,value)
-            // console.log('---.1',this.cashed)
+
             return this.cashed.get(key)
         }else{
             return -1;
         }
     }
+
     put(key,num){
-        // console.log('num',num,this)
         if(this.cashed.has(key)){
             this.cashed.delete(key) //存在就更新
-        }else if(this.cashed.size>=this.max){
-            // console.log('----2',this.cashed.keys().next()) 
+        }else if(this.cashed.size >= this.max){
+            // console.log('---->',this.cashed.keys().next()) 
             // keys返回遍历器对象，遍历器对象下面有next方法，执行next方法返回一个带{value:"",done:false}的对象，表示当前数据成员的信息。
             this.cashed.delete(this.cashed.keys().next().value) //map的第一位，是不常用元素 
         }

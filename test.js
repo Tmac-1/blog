@@ -1,32 +1,3 @@
-// function foo() {
-//     console.log(value);
-// }
-// function bar() {
-//     value = 2;
-//     foo();
-// }
-// var value = 1;
-// bar();
-
-// var value = undefined
-
-// function foo() {
-//     console.log(value);
-// }
-// function bar() {
-//     value = 2;
-//     foo();
-// }
-//  value = 1;
-// bar();
-
-// function foo() {
-//     return
-//         {
-//             foo:'bar'
-//         }
-// }
-// console.log( foo() )
 
 // var props={}
 // var stateProps={num:1}
@@ -63,34 +34,7 @@
 //   setTimeout(log, 100);
 // }
 
-// var  arr = [3,4,2,5,1,8,4,9,9,2]
-//        4
-// function bubleSort(arr) {
-//   for (var i = 0; i < arr.length - 1; i++) {
-//     for (var j = i + 1; j < arr.length; j++) {
-//       if (arr[i] > arr[j]) {
-//         [arr[i], arr[j]] = [arr[j], arr[i]]
-//       }
-//     }
-//   }
-//   return arr
-// }
-// console.log(bubleSort(arr))
-// i=2 j=1 j+1=2
-//  function insertSort(arr){
-//     for (var i=1; i<arr.length; i++){
-//        var j = i-1;
-//        var tem = arr[i];
-//        while(j>=0 && arr[j]>tem){
-//              arr[j+1]=arr[j]
-//              j--
 
-//        }
-//        arr[j+1]=tem;
-//     }
-//     return arr
-//  }
-//  console.log(insertSort(arr))
 // function quickSort(arr){
 //    if(arr.length<=1){
 //       return arr
@@ -194,30 +138,6 @@
 // }
 // console.log(binaryFind(3,arr,0,arr.length-1))
 
-// function legalBrackets(str){
-//    let stack = []
-//    let map = {
-//       '{':'}',
-//       '[':']',
-//       '(':')',
-//    }
-//    for(let item of str) {
-//       if(map[item]) {
-//          stack.push(item)
-//       }else if(Object.values(map).includes(item)){
-//          let last = stack.pop()
-//          if(item !== map[last]) return false
-//       }
-//    }
-//    return stack.length == 0
-// }
-// console.log(legalBrackets("()")); //true
-// console.log(legalBrackets("([ ) ]")); //false
-// console.log(legalBrackets("([{ )]")); //false
-// console.log(legalBrackets("()[ ]{}")); //true
-// console.log(legalBrackets(" { ]")); //false
-// console.log(legalBrackets("{ [ ] }")); //true
-// console.log(legalBrackets("function a (){console.log(1111)}"))// true
 
 // 找钱问题 change = new Change([1,5,10,20,50,100]) change.makeChange(13)
 
@@ -429,3 +349,60 @@ const fn3 = ()=>{
 }
 
 fn1(fn2(fn3()))
+
+Promise.prototype.finally = function (callback) {
+  console.log(11,this,this.constructor)
+};
+var p1 = new Promise(()=>{
+
+})
+p1.finally()
+
+let mp = new Map()
+mp.set('a',1)
+mp.set('b',2)
+console.log(mp)
+
+
+
+function num(ctx, next) {
+  console.log('starting num ...');
+  next(ctx * 10);
+  console.log('ending num ...');
+}
+
+function discount(ctx, next) {
+  console.log('starting discount ...');
+  next(ctx * 0.8);
+  console.log('ending discount ...');
+}
+
+function express(ctx, next) {
+  console.log('starting express ...');
+  next(ctx + 12);
+  console.log('ending express ...');
+}
+
+const sell = compose([num, discount, express]);
+console.log(sell(150));
+
+// 实现一个 compose
+function compose(args) {
+  let result;
+  return function (ctx) {
+    let i = 0;
+
+    let dispatch = function (i, ctx) {
+      let fn;
+      if (i < args.length) fn = args[i];
+      if (i === args.length) {
+        result = ctx;
+        return;
+      }
+      return fn(ctx, dispatch.bind(null, ++i));
+    };
+
+    dispatch(i, ctx);
+    return result;
+  };
+}

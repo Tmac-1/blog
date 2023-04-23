@@ -12,3 +12,15 @@
    - 当安装软件包时，其包含的所有文件都会硬链接到此位置，而不会占用额外的磁盘空间
    - 这让你可以在项目之间方便的共享相同版本的依赖包
 4. 创建了非扁平的node_modules
+
+### 硬链接、软链接
+1. 如何建立硬链接
+   ``` c
+   window: mklink /H aaa.hard.js aaa.js  (新硬链接文件 源文件)
+   mac: ln foo.js foo_hard.js
+   ```
+2. 如何建立软链接
+    ``` c
+   window: mklink aaa.soft.js aaa.js  (新软链接文件 源文件)
+   mac: ln -s foo.js foo_soft.js
+   ```

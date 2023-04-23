@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  app:
+    build: ./  # 从当前目录构建
+    ports:
+      - 80:8080
+    volumes:
+      - ./:/app  # 从当前目录挂载到容器的app目录
+    environment:
+      - TZ=Asia/Shanghai # 指定时区，不然默认不是北京时间
+  redis:
+    image: redis:5.0.13 # 直接使用redis镜像
+    volumes:
+      - redis:/data  
+    environment:
+      - TZ=Asia/Shanghai
+
+volumes: # 命名挂载目录卷名
+  redis:  
+

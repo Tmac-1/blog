@@ -5,12 +5,6 @@
 1. webpack是基于nodejs的,所以要基于CommonJS规范导出一个对象
 2. webpack不适用于构建JavaScript库，因为不够纯碎，会打包出来一个bootstrap函数
 
-### webpack5新特性
-1. 内置清除输出目录 clean: true
-2. 更优雅的处理资源模块 assetModuleFilename
-3. 打包体积优化 -> 深度嵌套的tree-shaking
-4. 将4的cache-loader进行了内置，默认开启，或者配置cache
-5. 模块联邦 - 微前端
 ### 构建流程
 ![](img/compiler.png)
 一个 compilation 对象会对构建依赖图中所有模块，进行编译。 在编译阶段，模块会被加载(load)、封存(seal)、优化(optimize)、 分块(chunk)、哈希(hash)和重新创建(restore)
@@ -59,6 +53,11 @@ module.exports = function webpackLoader(content, map, meta) {
 
 多页面打包 ：entry可以定义一个对象，plugins可以写多个htmlWebpackPlugins
 
+### hash
+- hash 与整个项目有关，项目里有文件修改，所有文件的哈希值都会变化。
+- chunkhash 与入口有关，同一入口的文件被视为一个整体，当其中一个文件修改时，同入口的所有文件哈希值发生改变。
+- contenthash 只与文件内容有关，文件内容发生改变，才会更改该文件的哈希值。
+
 - ##### module chunk bundle 区别
   module，chunk 和 bundle 其实就是同一份逻辑代码在不同转换场景下的取了三个名字，我们直接写出来的是 module，webpack 处理时是 chunk，最后生成浏览器可以直接运行的 bundle。
    > https://www.cnblogs.com/skychx/p/webpack-module-chunk-bundle.html
@@ -75,15 +74,43 @@ module.exports = function webpackLoader(content, map, meta) {
 >  2. b站基础知识点 http://www.woc12138.com/article/45
 >  3. b站进阶知识点 https://juejin.cn/post/6909719159773331463/#heading-7
 
+### webpack5新特性
+1. 内置清除输出目录 clean: true
+2. 更优雅的处理资源模块 assetModuleFilename
+3. 打包体积优化 -> 深度嵌套的tree-shaking
+4. 将4的cache-loader进行了内置，默认开启，或者配置cache
+5. 模块联邦 - 微前端
 
-### 构建性能优化  
-1.减少loader处理，给loader配置include（实质上就是减少对文件的处理）
-2.配置noparse选项（如jqery,lodash等模块在生产环境直接引用cdn地址）
-3.ignorePlugin忽略一些不需要的模块（如moment里面的国际化模块） 
->https://www.bilibili.com/video/BV1Pf4y157Ni?p=52&spm_id_from=pageDriver
-4.DllPlugin第三方不容易变动的库单独打包成动态链接库 （先用DllPlugin构建出dll和manifest文件，再用DllReference插件建立引用）
+  #### webpack 性能优化
+1. 提升开发体验
+   - 开启sourceMap
+2. 提升打包构建速度
+   - HMR 热模块替换
+   - oneOf：每个文件只能被其中一个loader处理，匹配到就终止
+   - include/exclude: 主要针对js文件，只打包src下面文件，不打包node_modules下面文件,减少loader处理，给loader配置include（实质上就是减少对文件的处理）
+   - 开启babel的loader和eslint的plugin的缓存cache
+   - thread-loader：开启多进程
+   - 配置noparse选项（如jqery,lodash等模块在生产环境直接引用cdn地址）
+3. 减少代码体积
+   - tree-shaking：生产模式自动开启
+   - @babel/plugin-transform-runtime：只编译用到的es6的代码
+   - 配置externals配置外部依赖包，通过外链引入（vue、vue-router、axios），减小包体积，提升打包速度
+4. 优化代码运行时性能
+   - code split ：动态import()引入 
+   - 提取公共代码 ：配置splitChunks
+   - preload/prefetch 预加载模块，当前页面优先级高的资源用preload，下一个页面需要的资源用 prefetch，兼容性差
+     preload：告诉浏览器立即加载资源
+     prefetch：空闲时开始加载
+   - 配置contenthash保证文件内容变化才更改文件名称（newwork cache），配置runtimeChunk，保证只变更文件有更改的文件的名字
+   - 配置babel记得配置core-js按需打包
+   - PWA离线
+   
+> 使用webpack-bundle-analyzer分析生成的打包文件结果
+> 使用speed-measure-webpack-plugin来分析打包文件的速度，找到打包慢的原因
+1. 通过使用babel-plugin-component，实现element-ui组件库的按需引入
+2. 使用moment-locales-webpack-plugin 剔除moment.js 中的无用语言包
+webpack5优化建议：https://blog.csdn.net/qq_23935353/article/details/128413634
 
-  
 ### rollup
 1. 小巧、提供一个充分利用esModule特性的高效打包器 
 2. 插件

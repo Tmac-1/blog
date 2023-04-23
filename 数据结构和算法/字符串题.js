@@ -79,9 +79,11 @@
   // 转化为 getElementById
   var f = function (s) {
     return s.replace(/-\w/g, function (x) {
+      // console.log(x)
       return x.slice(1).toUpperCase();
     })
   }
+  f(s1)
 
   // 颜色进制转化 https://www.jianshu.com/p/c99e1befdc98 http://www.sanhaostreet.com/it/202210/1824919.html
   String.prototype.colorHex = function () {

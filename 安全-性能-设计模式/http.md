@@ -84,7 +84,7 @@ https://ruanyifeng.com/blog/2014/02/ssl_tls.html
 6. 利用tcp传输数据 （拆分成数据包 有序、可靠） 服务器会按照顺序来接受
 7. 发送http请求 （请求头 请求行 请求体）http请求keep-alive，默认不会断开， 为了下次传输数据时，可以复用上次的链接
 8. 服务器收到数据后（响应行 响应头 响应体）
-   301 永久重定向 302 临时重定向 304 查询浏览器缓存进行返回
+   301 永久重定向 302 临时重定向 304 命中协商缓存
 
 ##### 一个请求有哪些时间消耗
 https://senior-frontend.pages.dev/computerNetwork/tools.html#_5-5-1-%E7%BD%91%E7%BB%9C%E4%BC%98%E5%8C%96%E6%8C%87%E6%A0%87

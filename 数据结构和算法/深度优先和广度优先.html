@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="parent">
+        <div class="child1">
+            <div class="child1-1"></div>
+            <div class="child1-2"></div>
+        </div>
+        <div class="child2">
+            <div class="child2-1"></div>
+            <div class="child2-2"></div>
+        </div>
+        <div class="child3">
+            <div class="child3-1"></div>
+            <div class="child3-2"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    /*
+                           parent
+               child1      child2         child3
+    child1-1 child1-2  child2-1 child2-2  child3-1 child3-2
+    **/
+
+    // DFS 深度优先遍历 （用stack解决）
+    let node_parent = document.querySelector('#parent')
+    let dfs = (node) => {
+        let stack = []
+        let nodes = [] // 存所有节点
+        if (node) {
+            stack.push(node)
+            while (stack.length) {
+                let item = stack.pop()
+                nodes.push(item)
+                let children = item.children
+                // 从右往左存 取的时候才能从左往右
+                for (let i = children.length - 1; i >= 0; i--) {
+                    stack.push(children[i])
+                }
+            }
+        }
+        return nodes
+    }
+    console.log('dfs', dfs(node_parent))
+
+
+    // BFS 广度优先遍历 （用队列解决）
+    let bfs = (node) => {
+        let queue = []
+        let nodes = []
+        if (node) {
+            queue.push(node)
+            while (queue.length) {
+                let item = queue.shift() // 从前面取
+                nodes.push(item)
+                let children = item.children
+                for (let i = 0; i < children.length; i++) {
+                    queue.push(children[i])
+                }
+            }
+        }
+        return nodes
+    }
+    console.log('bfs',bfs(node_parent))
+</script>

@@ -10,11 +10,14 @@
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
     "husky": "^8.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "git cz",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -28,7 +31,7 @@
   "homepage": "https://github.com/Tmac-1/interview#readme",
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "cz-customizable"
     }
   }
 }

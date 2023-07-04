@@ -3,16 +3,15 @@
   "version": "0.0.1",
   "description": "日常学习记录",
   "main": "test.js",
-  "dependencies": {
-    "commitizen": "^4.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
+    "commitizen": "^4.3.0",
     "commitlint-config-cz": "^0.13.3",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.0.0",
-    "husky": "^8.0.0"
+    "husky": "^8.0.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

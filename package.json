@@ -1,6 +1,6 @@
 {
   "name": "tmac-blog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "日常学习记录",
   "main": "test.js",
   "dependencies": {},
@@ -11,7 +11,8 @@
     "commitlint-config-cz": "^0.13.3",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.0.0",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "standard-version": "^9.5.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

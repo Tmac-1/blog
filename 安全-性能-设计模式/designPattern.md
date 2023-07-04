@@ -18,3 +18,4 @@ https://zhuanlan.zhihu.com/p/51357583
 1. axios里面cancelToken取消重复请求用到发布订阅模式、webpack的插件中用到的Tapable模块
 2. webpack中loader处理文件用到的单一职责模式
 3. react里面高阶组件用到的装饰器模式
+4. redux的store使用的是单例模式,vuex和vue-router

@@ -312,3 +312,12 @@ var step = function () {
     });
 }
 step();
+
+
+// 实现一个repeat
+function repeat(fn,times,timer){
+
+}
+
+let repeatHelloWorld = repeat(alert,4,3000)
+repeatHelloWorld('hello world')

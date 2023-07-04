@@ -1,0 +1,30 @@
+{
+  "name": "tmac-blog",
+  "version": "0.0.1",
+  "description": "日常学习记录",
+  "main": "test.js",
+  "dependencies": {
+    "commitizen": "^4.3.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tmac-1/interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tmac-1/interview/issues"
+  },
+  "homepage": "https://github.com/Tmac-1/interview#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

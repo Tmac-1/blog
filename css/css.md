@@ -37,6 +37,10 @@ display: flex
 1. 使用inline-block解决浮动元素高度塌陷问题
 2. 包裹一个元素设置overflow：hidden解决 margin边距重叠问题
    
+### flex
+flex属性 是 flex-grow(项目放大比例)、flex-shrink(项目缩小比例)、flex-basis(项目占据的主轴空间,设置后项目将占据固定空间,优先级比width高)三个属性的缩写。
+flex:1 是flex-grow: 1; flex-shrink: 1; flex-basis: 0%
+   
 ### 主题换肤功能实现
 1. 使用css变量var(),通过document.body.style.setProperty('--foo', '#666')
 来遍历配置文件，设置主题色

@@ -15,7 +15,7 @@ function shuffle(a) {
 }
 
 
-// 快排  （找到中间位置，数组分两组，递归数组）O(n logn)
+// 快排 （找到中间位置，数组分两组，递归数组）O(n logn)
 function quickSort(arr) {
     if (arr.length <= 1) {//如果数组只有一个数，就直接返回；  
         return arr;

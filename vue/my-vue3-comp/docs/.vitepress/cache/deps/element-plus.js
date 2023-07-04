@@ -3452,7 +3452,7 @@ var rsSeq = rsOptVar + reOptMod + rsOptJoin;
 var rsSymbol = "(?:" + [rsNonAstral + rsCombo + "?", rsCombo, rsRegional, rsSurrPair, rsAstral].join("|") + ")";
 var reUnicode = RegExp(rsFitz + "(?=" + rsFitz + ")|" + rsSymbol + rsSeq, "g");
 function unicodeToArray(string3) {
-  return string3.match(reUnicode) || [];
+  return string3.reUnicode) || [];
 }
 var unicodeToArray_default = unicodeToArray;
 

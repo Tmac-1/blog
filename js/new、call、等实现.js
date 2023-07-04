@@ -90,3 +90,21 @@ Function.prototype.bind2 = function (content) {
     return resFn;
 }
 
+/**
+ * reduce实现map
+ * 思路：1、判断传入的fn是否是一个函数，如果不是则抛出异常
+ *      2、使用reduce进行拼接调用，最后返回
+ *      3、this指向的是调用map的数组
+ * */
+Array.prototype.myMap = function(fn,thisArg = []){
+	//如果fn传入的不是一个函数则抛出异常
+	if(typeof fn != 'function'){
+		throw new Error(`${fn} is not a function`);
+	}
+	return this.reduce((pre,cur,index,arr) => {
+		return pre.concat(fn.call(thisArg,cur,index,arr));
+	},[])
+}
+const arr = [2,3,1,5];
+const temp = arr.myMap(item => item * 2);
+console.log(temp);

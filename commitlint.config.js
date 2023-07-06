@@ -12,7 +12,7 @@ module.exports = {
   //     "scope-empty": [2, "never"],
   //   },
   rules: {
-    "type-enum": [2, "always", ['feat', 'fix', 'docs', 'style', 'refactor', 'test', 'revert', '@feat']],
+    "type-enum": [2, "always", ['feat', 'fix', 'docs','wip',]],
     // "type-empty": [0],
     // "subject-empty": [0],
   },

@@ -1,6 +1,6 @@
 module.exports = {
   types: [
-    { value: "feat", name: "feat 🍄:    新增新的特性" },
+    // { value: "feat", name: "feat 🍄:    新增新的特性" },
     { value: "fix", name: "fix 🐛:    修复 BUG" },
     { value: "docs", name: "docs 📄:    修改文档、注释" },
     {
@@ -14,6 +14,7 @@ module.exports = {
     { value: "revert", name: "revert 🌝:     版本回滚" },
     { value: "update", name: "update ⬆:    第三方库升级 " },
     { value: "wip", name: "wip:      Work in progress" },
+    { value: "feature", name: "feat 🍄:    新增新的特性" }
   ],
 
   scopes: [

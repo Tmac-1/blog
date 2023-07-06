@@ -13,8 +13,9 @@ module.exports = {
     { value: "style", name: "style ✂:    对代码格式的修改不影响逻辑" },
     { value: "revert", name: "revert 🌝:     版本回滚" },
     { value: "update", name: "update ⬆:    第三方库升级 " },
+    { value: "@wip", name: "@wip:      Work in progress" },
     { value: "wip", name: "wip:      Work in progress" },
-    { value: "feature", name: "feat 🍄:    新增新的特性" }
+    { value: "[feat]", name: "feat 🍄:    新增新的特性" }
   ],
 
   scopes: [

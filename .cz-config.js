@@ -1,4 +1,5 @@
 module.exports = {
+  path: "cz-conventional-changelog",
   types: [
     // { value: "feat", name: "feat 🍄:    新增新的特性" },
     { value: "fix", name: "fix 🐛:    修复 BUG" },
@@ -15,7 +16,13 @@ module.exports = {
     { value: "update", name: "update ⬆:    第三方库升级 " },
     { value: "@wip", name: "@wip:      Work in progress" },
     { value: "wip", name: "wip:      Work in progress" },
-    { value: "[feat]", name: "feat 🍄:    新增新的特性" }
+    { value: "wip@", name: "wip@:      Work in progress" },
+    { value: "[feat]", name: "[feat] 🍄:    新增新的特性" },
+    {
+      emoji: "✨",
+      value: "@feat",
+      name: "feat: 新功能",
+    },
   ],
 
   scopes: [

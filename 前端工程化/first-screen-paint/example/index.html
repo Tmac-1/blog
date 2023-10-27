@@ -24,6 +24,7 @@
     <div class="part four">part four <img data-src="https://img.zzzmh.cn/origin/d822e44f880411ebb6edd017c2d2eca2.jpg_thumbs" src="https://img.zzzmh.cn/origin/d822e44f880411ebb6edd017c2d2eca2.jpg_thumbs" alt=""></div>
   </div>
   <script>
+    console.log('first screen paint', window.$fsp);
     if (window.$fsp) {
       $fsp.getFirstScreenTime(60000).then((data) => {
         console.log(data)

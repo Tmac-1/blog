@@ -108,3 +108,7 @@ https://blog.csdn.net/weCat_s/article/details/122554460
 ### any和unknow区别
 https://blog.csdn.net/qq_51441159/article/details/128101007
 any 会绕过类型检查，直接可用，而 unkonwn 则必须要在判断完它是什么类型之后才能继续用
+
+### 基本使用
+https://blog.csdn.net/cookcyq__/article/details/121572011
+https://blog.csdn.net/cookcyq__/article/details/125087375

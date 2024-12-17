@@ -1,0 +1,33 @@
+{
+  "name": "bwt-ui-test",
+  "version": "0.1.0",
+  "private": false,
+  "main": "lib/bwt-ui-test.common.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib src/components/index.js --dest lib"
+  },
+  "dependencies": {
+    "@leafer-in/editor": "^1.0.10",
+    "axios": "^1.7.9",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.15.14",
+    "leafer-ui": "^1.0.10",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ]
+}
